@@ -4,6 +4,7 @@ permalink: /Mask-Scalper
 ---
 
 Mask scalper is a covid-themed point-and-click game with endless gameplay with some hidden-object style gameplay created for GGJ 2026 (Theme: Mask). 
+
 The game is a satirical take on the covid-19 pandemic inspired by both the widely hated phenomenon of "scalpers" who buy up all supply of a commodity in order to drive up price, as well as the human instinct to panic buy things in times of hardship (inspired by covid-19, and also the winter storm that blazed through much of the US in 2026, during which people bought out stores and scooped up all sorts of commodities, much like we saw in the pandemic.)
 
 An expanded Steam release is planned. [Play the demo here. ](https://hzeng.itch.io/mask-scalper)
