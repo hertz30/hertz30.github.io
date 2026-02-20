@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Mask Scalper"
 permalink: /Mask-Scalper
 ---
