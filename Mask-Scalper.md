@@ -5,7 +5,7 @@ permalink: /Mask-Scalper
 
 Mask Scalper is a fast-paced point-and-click game developed for Global Game Jam 2026 that blends hidden-object mechanics with an endless gameplay loop, placing players in the shoes of a desperate "Mask Scalper" attempting to buy up every mask in town.
 
-The game is a satirical take on the COVID-19 pandemic inspired by both the widely hated phenomenon of "scalpers" who buy up all supply of a commodity in order to drive up prices, as well as the human instinct to panic buy things in times of chaos (Which we saw during 2026's winter storm Fern, reminding our team of the chaos of the COVID-19 era)
+The game is a satirical take on the COVID-19 pandemic inspired by both the widely hated phenomenon of "scalpers" who buy up all supply of a commodity in order to drive up prices, as well as the human instinct to panic buy things in times of chaos (Which we saw during 2026's winter storm Fern, reminding our team of the chaos of the COVID-19 era).
 
 An expanded Steam release is planned. 
 
