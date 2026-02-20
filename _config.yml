@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
 title: Hertz Identity
 description: Haiying Zeng
+defaults:
+  - scope:
+      path: "" 
+    values:
+      layout: "single"
+      toc: true
+      toc_sticky: true
