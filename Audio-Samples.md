@@ -46,14 +46,14 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
   .audio-row label {
     flex: 1;           
-    font-weight: 600;
+    font-weight: 300;
     font-family: sans-serif;
     text-align: left;
   }
 
   .audio-row audio {
     flex: 1;                   /* Player fills remaining space */
-    max-width: 50%;          /* Prevents players from getting too wide */
+    max-width: 70%;          /* Prevents players from getting too wide */
   }
 </style>
 
