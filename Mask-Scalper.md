@@ -51,9 +51,8 @@ I was the lead developer, lead audio engineer, and project manager.
   Your browser does not support the video tag.
 </video>
 
-
+{% raw %}
 ```csharp
-
 public class NPCHand : MonoBehaviour
 {
     public GameObject targetGO; 
@@ -237,3 +236,4 @@ public class NPCHand : MonoBehaviour
             resetHand();
     }
 }```
+{% endraw %}
