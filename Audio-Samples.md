@@ -22,11 +22,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 {::nomarkdown}
 <style>
 
-  .controls-header button {
-    flex: 1;
-    white-space: nowrap; 
-  }
-
   .audio-grid {
     display: flex;
     flex-wrap: wrap;
