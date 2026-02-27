@@ -10,7 +10,7 @@ plugins:
 
 author:
   name   : "Haiying Zeng"
-  avatar : "/assets/images/headshot.jpg" # This uses the logo you already uploaded
+  avatar : "/assets/images/headshot.jpg"
   bio    : "Game Developer, Composer, and Programmer."
   links:
     - label: "GitHub"
@@ -19,3 +19,22 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/haiying-zeng/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
