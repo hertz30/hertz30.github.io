@@ -3,11 +3,11 @@ title: "Audio-Samples"
 permalink: /Audio-Samples
 layout: single
 ---
-#Composition: "Forest"
 
+## Composition: "Forest"
 
-<button onclick="playAllForest()">Play Full "Forest" Track</button>
-<button onclick="pauseAllForest()">Pause Full "Forest" Track</button>
+<button onclick="playAllForest()">Play "Forest" Track</button>
+<button onclick="pauseAllForest()">Pause "Forest" Track</button>
 
 <audio id="Forest_Djembe" controls><source src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 <audio id="Forest_Tambourine" controls><source src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav" type="audio/wav"></audio>
@@ -62,4 +62,60 @@ layout: single
   }
 </script>
 
+{:/nomarkdown}
+
+## Composition: "Village"
+
+<button onclick="playAllVillage()">Play "Village" Track</button>
+<button onclick="pauseAllVillage()">Pause "Village" Track</button>
+
+<audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Flute" controls><source src="Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Flute2" controls><source src="Village_Flute2_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Harp" controls><source src="Village_Harp_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Strings" controls><source src="Village_Strings_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Strings2" controls><source src="Village_Strings2_120bpm4-4_L24M_P1B.wav" type="audio/wav"></audio>
+<audio id="Village_Synth" controls><source src="Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+
+{::nomarkdown}
+<br>
+<script>
+  const tracks = {
+    bgFlute: document.getElementById('Village_BackgroundFlute'),
+    flute1: document.getElementById('Village_Flute'),
+    flute2: document.getElementById('Village_Flute2'),
+    harp: document.getElementById('Village_Harp'),
+    str1: document.getElementById('Village_Strings'),
+    str2: document.getElementById('Village_Strings2'),
+    synth: document.getElementById('Village_Synth')
+  };
+
+  const trackArray = Object.values(tracks);
+
+  tracks.bgFlute.volume = 1;
+  tracks.flute1.volume = 1.0;
+  tracks.flute2.volume = 1;
+  tracks.harp.volume = 1;
+  tracks.str1.volume = 1;
+  tracks.str2.volume = 1;
+  tracks.synth.volume = 1;
+
+  tracks.bgFlute.onended = function() {
+    trackArray.forEach(t => {
+      t.currentTime = 0;
+      t.play();
+    });
+  };
+
+  function playAllVillage() {
+    trackArray.forEach(t => {
+      t.currentTime = 0;
+      t.play();
+    });
+  }
+
+  function pauseAllVillage() {
+    trackArray.forEach(t => t.pause());
+  }
+</script>
 {:/nomarkdown}
