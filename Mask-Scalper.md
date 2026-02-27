@@ -50,10 +50,10 @@ I was the lead developer, lead audio engineer, and project manager.
   <source src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-```
 
 
 ```csharp
+
 public class NPCHand : MonoBehaviour
 {
     public GameObject targetGO; 
