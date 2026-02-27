@@ -2,6 +2,10 @@
 title: "Audio-Samples"
 permalink: /Audio-Samples
 ---
+#Composition: "Forest"
+
+<button onclick="playAllForest()">Play Full "Forest" Track</button>
+<button onclick="pauseAllForest()">Pause Full "Forest" Track</button>
 
 <audio id="Forest_Djembe" controls><source src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 <audio id="Forest_Tambourine" controls><source src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav" type="audio/wav"></audio>
@@ -13,10 +17,6 @@ permalink: /Audio-Samples
 <audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
 <br>
-
-<button onclick="playAll()">Play All Tracks</button>
-<button onclick="pauseAll()">Pause All Tracks</button>
-
 <script>
   const tracks = {
     djembe: document.getElementById('Forest_Djembe'),
@@ -31,12 +31,12 @@ permalink: /Audio-Samples
 
   const trackArray = Object.values(tracks);
 
-  tracks.djembe.volume = 1.0;
+  tracks.djembe.volume = 0.9;
   tracks.tambourine.volume = 1.0;
   tracks.harp.volume = 1.0;
   tracks.oc1.volume = 0.5;
   tracks.oc2.volume = 0.3;
-  tracks.str1.volume = 0.25;
+  tracks.str1.volume = 0.2;
   tracks.str2.volume = 0.1;
   tracks.str3.volume = 0.05;
 
@@ -47,14 +47,14 @@ permalink: /Audio-Samples
     });
   };
 
-  function playAll() {
+  function playAllForest() {
     trackArray.forEach(t => {
       t.currentTime = 0;
       t.play();
     });
   }
 
-  function pauseAll() {
+  function pauseAllForest() {
     trackArray.forEach(t => t.pause());
   }
 </script>
