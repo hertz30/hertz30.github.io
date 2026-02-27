@@ -1,1 +1,26 @@
 @import "{{ site.theme }}";
+
+/* GitHub Dark Theme for Rouge (Jekyll) */
+/* Background and Base Text */
+.highlight { background: #0d1117; color: #c9d1d9; border-radius: 6px; padding: 1em; overflow: auto; }
+
+/* Keywords & Logic (Red) */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv { color: #ff7b72; } 
+
+/* Functions & Classes (Purple) */
+.highlight .nf, .highlight .nc, .highlight .nn, .highlight .nl { color: #d2a8ff; } 
+
+/* Numbers, Attributes, & Variables (Blue) */
+.highlight .m, .highlight .mi, .highlight .mf, .highlight .mo, .highlight .v, .highlight .vg, .highlight .vi, .highlight .na, .highlight .nb { color: #79c0ff; }
+
+/* Strings & Regex (Light Blue) */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .sh, .highlight .sr, .highlight .ss { color: #a5d6ff; }
+
+/* Comments (Gray) */
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cp, .highlight .cpf { color: #8b949e; font-style: italic; }
+
+/* Operators & Punctuation (Light Blue/White) */
+.highlight .o, .highlight .p { color: #79c0ff; }
+
+/* Built-ins & Symbols (Orange) */
+.highlight .no, .highlight .ni, .highlight .ne { color: #ffa657; }
