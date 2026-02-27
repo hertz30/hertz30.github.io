@@ -2,6 +2,8 @@
 title: "Audio-Samples"
 permalink: /Audio-Samples
 layout: single
+footer_scripts:
+  - /assets/js/custom-audio.js
 ---
 
 #Composition: "Forest"
