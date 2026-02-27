@@ -1,0 +1,18 @@
+@import "{{ site.theme }}";
+
+$section-headings-color: #4a5d4e; 
+$header-bg-color: #3e4a42;        
+$link-color: #5a7d66;             
+
+pre, code {
+  white-space: pre-wrap !important; 
+  word-wrap: break-word !important;
+  font-size: 0.85em !important;    
+  background: #282c34 !important;  
+  color: #abb2bf !important;
+}
+
+#sidebar {
+  font-size: 0.8em;
+  opacity: 0.9;
+}
