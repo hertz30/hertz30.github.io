@@ -26,6 +26,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    width: 100%;
   }
 
   .audio-grid {
@@ -37,8 +38,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
   .audio-row {
     display: flex;
-    align-items: center;
-    justify-content: flex-end; 
     flex: 1 1 calc(50% - 20px); 
     min-width: 300px;           
     gap: 10px;
@@ -46,14 +45,12 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
   .audio-row label {
     flex: 1;           
-    font-weight: 300;
-    font-family: sans-serif;
     text-align: left;
   }
 
   .audio-row audio {
-    flex: 1;                   /* Player fills remaining space */
-    max-width: 70%;          /* Prevents players from getting too wide */
+    flex: 1;
+    justify-content: right
   }
 </style>
 
