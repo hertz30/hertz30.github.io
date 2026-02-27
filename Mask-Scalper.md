@@ -3,6 +3,8 @@ title: "Mask Scalper"
 permalink: /Mask-Scalper
 layout: single
 ---
+
+[![Play the demo here: Clickable link to Itch.io](https://github.com/user-attachments/assets/5f720069-0f73-4ddf-82e1-821731b6e795)](https://hzeng.itch.io/mask-scalper)
 Mask Scalper is a fast-paced point-and-click game developed for Global Game Jam 2026 that blends hidden-object mechanics with an endless gameplay loop, placing players in the shoes of a desperate "Mask Scalper" attempting to buy up every mask in town.
 
 The game is a satirical take on the COVID-19 pandemic inspired by both the widely hated phenomenon of "Scalpers" who buy up all supply of a commodity in order to drive up prices, as well as the human instinct to panic buy things in times of chaos (Which we saw during 2026's winter storm Fern, reminding our team of the chaos of the COVID-19 era).
@@ -12,13 +14,9 @@ The game is a satirical take on the COVID-19 pandemic inspired by both the widel
   Your browser does not support the video tag.
 </video>
 
-
 An expanded Steam release is planned. 
 
-### [Play the demo here](https://hzeng.itch.io/mask-scalper).
-[![Clickable link to itch.io demo](https://github.com/user-attachments/assets/5f720069-0f73-4ddf-82e1-821731b6e795)](https://hzeng.itch.io/mask-scalper)
-
-# Project Roles
+## Project Roles
 
 I was the lead developer, lead audio engineer, and project manager. 
 
@@ -46,7 +44,7 @@ I was the lead developer, lead audio engineer, and project manager.
     * Nicholas did a bit of everything, he worked on the intro/outro sequences of the game and did a great job. He also implemented a lot of sounds throughout the game, and compressed a lot of textures as well as did some art to achieve the low-fidelity artstyle that we were going for.
 * For our presentation, Trent and Austin were out of town, while Nicholas had stayed up all night working on the game and was out of commission, so I was responsible for polishing the demo, publishing a build, and presenting the project as the primary team representative. 
 
-# Code Sample: Enemy System
+## Code Sample: Enemy System
 
 <video width="100%" controls>
   <source src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7" type="video/mp4">
