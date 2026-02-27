@@ -24,26 +24,36 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   .audio-row {
     display: flex;
     align-items: center;
-    margin-bottom: 8px; 
-    gap: 12px;
+    flex-wrap: wrap;       
+    margin-bottom: 12px;
+    gap: 8px 15px;         
+    width: 100%;          
   }
 
   .audio-row label {
-  flex-shrink: 0;        
-  min-width: fit-content; 
-  font-weight: 600;
-  font-family: sans-serif;
+    flex: 0 0 auto;        
+    min-width: 80px;      
+    max-width: 100%;       
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  .audio-row audio {
+    flex: 1 1 250px;      
+    max-width: 100%;       
   }
 
   .controls-header {
     margin-bottom: 20px;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;       
+    gap: 8px;
   }
-  
+
   button {
     cursor: pointer;
-    padding: 5px 12px;
+    padding: 8px 16px;     
+    flex: 0 1 auto;        
   }
 </style>
 
