@@ -70,12 +70,12 @@ layout: single
 <button onclick="pauseAllVillage()">Pause "Village" Track</button>
 
 <audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
-<audio id="Village_Flute" controls><source src="Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
-<audio id="Village_Flute2" controls><source src="Village_Flute2_120bpm4-4_L24M.wav" type="audio/wav"></audio>
-<audio id="Village_Harp" controls><source src="Village_Harp_120bpm4-4_L24M.wav" type="audio/wav"></audio>
-<audio id="Village_Strings" controls><source src="Village_Strings_120bpm4-4_L24M.wav" type="audio/wav"></audio>
-<audio id="Village_Strings2" controls><source src="Village_Strings2_120bpm4-4_L24M_P1B.wav" type="audio/wav"></audio>
-<audio id="Village_Synth" controls><source src="Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Flute" controls><source src="audio/Village/Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Flute2" controls><source src="audio/Village/Village_Flute2_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Harp" controls><source src="audio/Village/Village_Harp_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Strings" controls><source src="audio/Village/Village_Strings_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<audio id="Village_Strings2" controls><source src="audio/Village/Village_Strings2_120bpm4-4_L24M_P1B.wav" type="audio/wav"></audio>
+<audio id="Village_Synth" controls><source src="audio/Village/Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
 {::nomarkdown}
 <br>
