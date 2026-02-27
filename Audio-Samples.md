@@ -73,12 +73,12 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 <div class="audio-grid">
   <div class="audio-row">
-    <label for="Forest_Djembe">Djembe</label>
+    <label for="Forest_Djembe">Djem</label>
     <audio id="Forest_Djembe" controls src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav"></audio>
   </div>
 
   <div class="audio-row">
-    <label for="Forest_Tambourine">Tambourine</label>
+    <label for="Forest_Tambourine">Tamb</label>
     <audio id="Forest_Tambourine" controls src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav"></audio>
   </div>
 
@@ -172,7 +172,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 <div class="audio-grid">
   <div class="audio-row">
-    <label for="Village_BackgroundFlute">Background Flute</label>
+    <label for="Village_BackgroundFlute">BG Flute</label>
     <audio id="Village_BackgroundFlute" controls src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav"></audio>
   </div>
 
