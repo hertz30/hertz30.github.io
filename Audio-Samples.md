@@ -22,18 +22,20 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 {::nomarkdown}
 <style>
   .controls-header {
-    margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap; 
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .controls-header button {
+    flex: 1;
+    white-space: nowrap; 
   }
 
   .audio-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 20px; 
     width: 100%;
   }
 
@@ -41,18 +43,20 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     display: flex;
     flex: 1 1 calc(50% - 20px); 
     min-width: 300px;           
-    gap: 10px;
+    align-items: center; 
   }
 
   .audio-row label {
-    flex: 0 0 auto;
-    min-width: fit-content;
+    flex: 0 0 90px;     
+    font-size: 0.85rem; 
     text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .audio-row audio {
     flex: 1;
-    justify-content: right
+    justify-content: right;
   }
 </style>
 
