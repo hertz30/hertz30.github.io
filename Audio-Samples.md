@@ -5,6 +5,7 @@ layout: single
 ---
 #Composition: "Forest"
 
+
 <button onclick="playAllForest()">Play Full "Forest" Track</button>
 <button onclick="pauseAllForest()">Pause Full "Forest" Track</button>
 
@@ -16,6 +17,7 @@ layout: single
 <audio id="Forest_Strings" controls><source src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 <audio id="Forest_Strings2" controls><source src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 <audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+
 
 <br>
 <script>
@@ -59,3 +61,5 @@ layout: single
     trackArray.forEach(t => t.pause());
   }
 </script>
+
+
