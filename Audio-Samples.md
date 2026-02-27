@@ -44,7 +44,13 @@ permalink: /Audio-Samples
     document.getElementById('track7'),
     document.getElementById('track8'),
   ];
-
+  
+  track1.onended = function() {
+    tracks.forEach(t => {
+      t.currentTime = 0;
+      t.play();
+    });
+  };
   function playAll() {
     tracks.forEach(t => t.play());
   }
