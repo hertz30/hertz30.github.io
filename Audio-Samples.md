@@ -21,27 +21,79 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 ## Composition: "Forest"
 
 {::nomarkdown}
-<button onclick="playAllForest()">Play "Forest" Composition</button>
-<button onclick="pauseAllForest()">Pause "Forest" Composition</button>
-<button onclick="resetAllForest()">Reset Progress</button>
+<style>
+  .audio-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; 
+    gap: 12px;
+  }
 
-<label for="Forest_Djembe">Djembe</label><audio id="Forest_Djembe" controls><source src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+  .audio-row label {
+    width: 100px; 
+    font-weight: 600;
+    font-family: sans-serif;
+    display: inline-block;
+  }
 
-<label for="Forest_Tambourine">Tambourine</label><audio id="Forest_Tambourine" controls><source src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+  .controls-header {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 5px 12px;
+  }
+</style>
 
-<label for="Forest_Harp">Harp</label><audio id="Forest_Harp" controls><source src="audio/Forest/ForestMusicDraft_Harp_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<div class="controls-header">
+  <button onclick="playAllForest()">Play "Forest" Composition</button>
+  <button onclick="pauseAllForest()">Pause "Forest" Composition</button>
+  <button onclick="resetAllForest()">Reset Progress</button>
+</div>
 
-<label for="Forest_Ocarina">Ocarina</label><audio id="Forest_Ocarina" controls><source src="audio/Forest/ForestMusicDraft_Ocarina_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<div class="audio-row">
+  <label for="Forest_Djembe">Djembe</label>
+  <audio id="Forest_Djembe" controls src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav"></audio>
+</div>
 
-<label for="Forest_Ocarina2">Ocarina2</label><audio id="Forest_Ocarina2" controls><source src="audio/Forest/ForestMusicDraft_Ocarina2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<div class="audio-row">
+  <label for="Forest_Tambourine">Tambourine</label>
+  <audio id="Forest_Tambourine" controls src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav"></audio>
+</div>
 
-<label for="Forest_Strings">Strings</label><audio id="Forest_Strings" controls><source src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<div class="audio-row">
+  <label for="Forest_Harp">Harp</label>
+  <audio id="Forest_Harp" controls src="audio/Forest/ForestMusicDraft_Harp_120bpm4-4_L20M.wav"></audio>
+</div>
 
-<label for="Forest_Strings2">Strings2</label><audio id="Forest_Strings2" controls><source src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<div class="audio-row">
+  <label for="Forest_Ocarina">Ocarina</label>
+  <audio id="Forest_Ocarina" controls src="audio/Forest/ForestMusicDraft_Ocarina_120bpm4-4_L20M.wav"></audio>
+</div>
 
-<label for="Forest_Strings3">Strings3</label><audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<div class="audio-row">
+  <label for="Forest_Ocarina2">Ocarina 2</label>
+  <audio id="Forest_Ocarina2" controls src="audio/Forest/ForestMusicDraft_Ocarina2_120bpm4-4_L20M.wav"></audio>
+</div>
 
-<br>
+<div class="audio-row">
+  <label for="Forest_Strings">Strings</label>
+  <audio id="Forest_Strings" controls src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav"></audio>
+</div>
+
+<div class="audio-row">
+  <label for="Forest_Strings2">Strings 2</label>
+  <audio id="Forest_Strings2" controls src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav"></audio>
+</div>
+
+<div class="audio-row">
+  <label for="Forest_Strings3">Strings 3</label>
+  <audio id="Forest_Strings3" controls src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav"></audio>
+</div>
+
 <script>
   const forestTracks = {
     djembe: document.getElementById('Forest_Djembe'),
@@ -73,9 +125,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   };
 
   function playAllForest() {
-    forestTrackArray.forEach(t => {
-      t.play();
-    });
+    forestTrackArray.forEach(t => t.play());
   }
 
   function pauseAllForest() {
@@ -89,7 +139,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     });
   }
 </script>
-
 {:/nomarkdown}
 
 ## Composition: "Village"
