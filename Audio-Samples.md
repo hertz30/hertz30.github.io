@@ -20,6 +20,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 ## Composition: "Forest"
 
+{::nomarkdown}
 <button onclick="playAllForest()">Play "Forest" Composition</button>
 <button onclick="pauseAllForest()">Pause "Forest" Composition</button>
 <button onclick="resetAllForest()">Reset Progress</button>
@@ -48,7 +49,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 <label for="Forest_Strings3">Strings3</label>
 <audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-{::nomarkdown}
 <br>
 <script>
   const forestTracks = {
@@ -102,10 +102,11 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 ## Composition: "Village"
 
+
+{::nomarkdown}
 <button onclick="playAllVillage()">Play "Village" Composition</button>
 <button onclick="pauseAllVillage()">Pause "Village" Composition</button>
 <button onclick="resetAllVillage()">Reset Progress</button>
-
 
 <label for="Village_BackgroundFlute">BackgroundFlute</label>
 <audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
@@ -128,7 +129,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 <label for="Village_Synth">Synth</label>
 <audio id="Village_Synth" controls><source src="audio/Village/Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
-{::nomarkdown}
 <br>
 <script>
   const villageTracks = {
