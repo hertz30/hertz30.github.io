@@ -1,7 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "air"
 masthead_title: "Haiying Zeng"
-logo: https://github.com/user-attachments/assets/e4cc9dfc-2a96-435a-9105-1acc346897dc
+logo: "/assets/images/logo.jpg"
 kramdown:
   input: GFM
   syntax_highlighter: rouge
