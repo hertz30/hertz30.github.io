@@ -34,14 +34,14 @@ layout: single
 
   const trackArray = Object.values(tracks);
 
-  tracks.djembe.volume = 0.9;
+  tracks.djembe.volume = 0.7;
   tracks.tambourine.volume = 1.0;
   tracks.harp.volume = 1.0;
   tracks.oc1.volume = 0.5;
   tracks.oc2.volume = 0.3;
-  tracks.str1.volume = 0.2;
-  tracks.str2.volume = 0.1;
-  tracks.str3.volume = 0.05;
+  tracks.str1.volume = 0.1;
+  tracks.str2.volume = 0.15;
+  tracks.str3.volume = 0.1;
 
   tracks.djembe.onended = function() {
     trackArray.forEach(t => {
@@ -116,6 +116,7 @@ layout: single
 
   function pauseAllVillage() {
     trackArray.forEach(t => t.pause());
+  }
   }
 </script>
 {:/nomarkdown}
