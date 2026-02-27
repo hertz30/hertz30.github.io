@@ -101,12 +101,12 @@ layout: single
   const villageTrackArray = Object.values(villageTracks);
 
   villageTracks.bgFlute.volume = 1.0;
-  villageTracks.flute1.volume = 1.0;
-  villageTracks.flute2.volume = 1.0;
+  villageTracks.flute1.volume = 0.5;
+  villageTracks.flute2.volume = 0.4;
   villageTracks.harp.volume = 1.0;
-  villageTracks.str1.volume = 1.0;
-  villageTracks.str2.volume = 1.0;
-  villageTracks.synth.volume = 1.0;
+  villageTracks.str1.volume = 0.4;
+  villageTracks.str2.volume = 0.3;
+  villageTracks.synth.volume = 0.45;
 
   villageTracks.bgFlute.onended = function() {
     villageTrackArray.forEach(t => {
