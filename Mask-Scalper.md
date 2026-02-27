@@ -51,21 +51,7 @@ I was the lead developer, lead audio engineer, and project manager.
   Your browser does not support the video tag.
 </video>
 
-{% raw %}
-```csharp
-public class NPCHand : MonoBehaviour
-{
-    public GameObject targetGO; 
-    private ScoreTracking gameManager;
-    private Vector3 targetGOTransform;
-    private Camera mainCamera;
-    private Coroutine handCoroutine;
-    private float lastReset=0;
-    [SerializeField] private Sprite[] handList;
-    private int handIndex;
-    private SpriteRenderer sr;
-    
-    void Awake()
+    void Awake()//NPC Enemy Hands Behavior Code
     {
         if (mainCamera == null)
         {
@@ -235,5 +221,3 @@ public class NPCHand : MonoBehaviour
         }
             resetHand();
     }
-}```
-{% endraw %}
