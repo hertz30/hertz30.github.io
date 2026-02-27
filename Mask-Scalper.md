@@ -13,6 +13,7 @@ The game is a satirical take on the COVID-19 pandemic inspired by both the widel
   Your browser does not support the video tag.
 </video>
 
+
 An expanded Steam release is planned. 
 
 ### [Play the demo here](https://hzeng.itch.io/mask-scalper).
