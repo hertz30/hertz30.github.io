@@ -12,10 +12,10 @@ https://github.com/user-attachments/assets/e048df6e-f553-479d-a468-2a5d0f310d2f
 
 An expanded Steam release is planned. 
 
-### [Play the demo here.](https://hzeng.itch.io/mask-scalper)
+### [Play the demo here](https://hzeng.itch.io/mask-scalper).
 [![Clickable link to itch.io demo](https://github.com/user-attachments/assets/5f720069-0f73-4ddf-82e1-821731b6e795)](https://hzeng.itch.io/mask-scalper)
 
-## Project Roles
+# Project Roles
 
 I was the lead developer, lead audio engineer, and project manager. 
 
@@ -45,7 +45,10 @@ I was the lead developer, lead audio engineer, and project manager.
 
 # Code Sample
 
-<video src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7"> 
+<video width="100%" controls>
+  <source src="https://github.com/user-attachments/assets/e048df6e-f553-479d-a468-2a5d0f310d2f" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ```C#
 public class NPCHand : MonoBehaviour
