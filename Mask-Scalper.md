@@ -54,7 +54,7 @@ I was the lead developer, lead audio engineer, and project manager.
 </video>
 
 
-```C#
+```cs
 public class NPCHand : MonoBehaviour
 {
     public GameObject targetGO; 
