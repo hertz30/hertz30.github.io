@@ -21,7 +21,7 @@ layout: single
 {::nomarkdown}
 <br>
 <script>
-  const tracks = {
+  const forestTracks = {
     djembe: document.getElementById('Forest_Djembe'),
     tambourine: document.getElementById('Forest_Tambourine'),
     harp: document.getElementById('Forest_Harp'),
@@ -32,7 +32,7 @@ layout: single
     str3: document.getElementById('Forest_Strings3')
   };
 
-  const trackArray = Object.values(tracks);
+  const forestTrackArray = Object.values(tracks);
 
   tracks.djembe.volume = 0.7;
   tracks.tambourine.volume = 1.0;
@@ -80,7 +80,7 @@ layout: single
 {::nomarkdown}
 <br>
 <script>
-  const tracks = {
+  const villageTracks = {
     bgFlute: document.getElementById('Village_BackgroundFlute'),
     flute1: document.getElementById('Village_Flute'),
     flute2: document.getElementById('Village_Flute2'),
@@ -90,7 +90,7 @@ layout: single
     synth: document.getElementById('Village_Synth')
   };
 
-  const trackArray = Object.values(tracks);
+  const villageTrackArray = Object.values(tracks);
 
   tracks.bgFlute.volume = 1;
   tracks.flute1.volume = 1.0;
@@ -116,7 +116,6 @@ layout: single
 
   function pauseAllVillage() {
     trackArray.forEach(t => t.pause());
-  }
   }
 </script>
 {:/nomarkdown}
