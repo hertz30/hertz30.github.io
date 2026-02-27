@@ -1,6 +1,7 @@
 ---
 title: "Audio-Samples"
 permalink: /Audio-Samples
+layout: single
 ---
 #Composition: "Forest"
 
