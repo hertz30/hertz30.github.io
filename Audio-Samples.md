@@ -150,19 +150,42 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 <button onclick="pauseAllVillage()">Pause "Village" Composition</button>
 <button onclick="resetAllVillage()">Reset Progress</button>
 
-<label for="Village_BackgroundFlute">BackgroundFlute</label><audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<div class="audio-grid">
+  <div class="audio-row">
+    <label for="Village_BackgroundFlute">Background Flute</label>
+    <audio id="Village_BackgroundFlute" controls src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav"></audio>
+  </div>
 
-<label for="Village_Flute">Flute</label><audio id="Village_Flute" controls><source src="audio/Village/Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+  <div class="audio-row">
+    <label for="Village_Flute">Flute</label>
+    <audio id="Village_Flute" controls src="audio/Village/Village_Flute_120bpm4-4_L24M.wav"></audio>
+  </div>
 
-<label for="Village_Flute2">Flute2</label><audio id="Village_Flute2" controls><source src="audio/Village/Village_Flute2_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+  <div class="audio-row">
+    <label for="Village_Flute2">Flute 2</label>
+    <audio id="Village_Flute2" controls src="audio/Village/Village_Flute2_120bpm4-4_L24M.wav"></audio>
+  </div>
 
-<label for="Village_Harp">Harp</label><audio id="Village_Harp" controls><source src="audio/Village/Village_Harp_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+  <div class="audio-row">
+    <label for="Village_Harp">Harp</label>
+    <audio id="Village_Harp" controls src="audio/Village/Village_Harp_120bpm4-4_L24M.wav"></audio>
+  </div>
 
-<label for="Village_Strings">Strings</label><audio id="Village_Strings" controls><source src="audio/Village/Village_Strings_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+  <div class="audio-row">
+    <label for="Village_Strings">Strings</label>
+    <audio id="Village_Strings" controls src="audio/Village/Village_Strings_120bpm4-4_L24M.wav"></audio>
+  </div>
 
-<label for="Village_Strings2">Strings2</label><audio id="Village_Strings2" controls><source src="audio/Village/Village_Strings2_120bpm4-4_L24M_P1B.wav" type="audio/wav"></audio>
+  <div class="audio-row">
+    <label for="Village_Strings2">Strings 2</label>
+    <audio id="Village_Strings2" controls src="audio/Village/Village_Strings2_120bpm4-4_L24M_P1B.wav"></audio>
+  </div>
 
-<label for="Village_Synth">Synth</label><audio id="Village_Synth" controls><source src="audio/Village/Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+  <div class="audio-row">
+    <label for="Village_Synth">Synth</label>
+    <audio id="Village_Synth" controls src="audio/Village/Village_Synth_120bpm4-4_L24M.wav"></audio>
+  </div>
+</div>
 
 <br>
 <script>
