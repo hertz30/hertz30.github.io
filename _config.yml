@@ -2,9 +2,13 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "air"
 masthead_title: "Haiying Zeng"
 logo: "/assets/images/logo.jpg"
+
+markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
 plugins:
 - jekyll-include-cache
 
