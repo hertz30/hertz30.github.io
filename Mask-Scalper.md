@@ -46,12 +46,13 @@ I was the lead developer, lead audio engineer, and project manager.
     * Nicholas did a bit of everything, he worked on the intro/outro sequences of the game and did a great job. He also implemented a lot of sounds throughout the game, and compressed a lot of textures as well as did some art to achieve the low-fidelity artstyle that we were going for.
 * For our presentation, Trent and Austin were out of town, while Nicholas had stayed up all night working on the game and was out of commission, so I was responsible for polishing the demo, publishing a build, and presenting the project as the primary team representative. 
 
-# Code Sample
+# Code Sample: 'Enemy' System
 
 <video width="100%" controls>
   <source src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 ```csharp
