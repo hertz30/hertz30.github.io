@@ -21,7 +21,23 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 {::nomarkdown}
 <style>
+  
+ .controls-header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
+  @media (min-width: 600px) {
+    .controls-header {
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  }
+  
   .audio-grid {
     display: flex;
     flex-wrap: wrap;
@@ -49,9 +65,11 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   }
 </style>
 
+<div class="controls-header">
   <button onclick="playAllForest()">Play "Forest" Composition</button>
   <button onclick="pauseAllForest()">Pause "Forest" Composition</button>
   <button onclick="resetAllForest()">Reset Progress</button>
+</div>
 
 <div class="audio-grid">
   <div class="audio-row">
