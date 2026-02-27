@@ -1,9 +1,44 @@
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "air"
 masthead_title: "Haiying Zeng"
-logo: https://github.com/user-attachments/assets/e4cc9dfc-2a96-435a-9105-1acc346897dc
+logo: "/assets/images/logo.jpg"
+
+markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
 plugins:
 - jekyll-include-cache
+
+author:
+  name   : "Haiying Zeng"
+  avatar : "/assets/images/headshot.jpg"
+  bio    : "Game Developer, Composer, and Programmer."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hertz30"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/haiying-zeng/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
