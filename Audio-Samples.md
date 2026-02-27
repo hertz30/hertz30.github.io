@@ -8,8 +8,7 @@ Listen to various audio tracks I've composed over the years.
 # Dynamic Compositions Instructions
 Many of my compositions have been broken down by individual instrument tracks to support maximum interactivity in-game. I've made a custom audio player for you to hear them as intended. Take a listen! 
 
-
-Press play on an individual audio element to solo it. You can mute or adjust the volume of individual audio elements if you'd like to hear the composition mixed differently. 
+Audio elements can be played individually. You can mute or adjust the volume of individual audio elements if you'd like to hear the composition mixed differently. 
 
 Click the "Play \_\_\_ Composition" button to play all tracks for the given composition. 
 
@@ -30,10 +29,10 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   }
 
   .audio-row label {
-    width: 100px; 
-    font-weight: 600;
-    font-family: sans-serif;
-    display: inline-block;
+  flex-shrink: 0;        
+  min-width: fit-content; 
+  font-weight: 600;
+  font-family: sans-serif;
   }
 
   .controls-header {
