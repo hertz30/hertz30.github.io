@@ -3,8 +3,10 @@ title: "Audio-Samples"
 permalink: /Audio-Samples
 layout: single
 ---
+
 #Composition: "Forest"
 
+{% raw %}
 <button onclick="playAllForest()">Play Full "Forest" Track</button>
 <button onclick="pauseAllForest()">Pause Full "Forest" Track</button>
 
@@ -59,3 +61,4 @@ layout: single
     trackArray.forEach(t => t.pause());
   }
 </script>
+{% endraw %}
