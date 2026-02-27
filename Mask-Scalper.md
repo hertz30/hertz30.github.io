@@ -2,6 +2,20 @@
 title: "Mask Scalper"
 permalink: /Mask-Scalper
 ---
+<style>
+  @media (min-width: 800px) {
+    .toc {
+      position: fixed;
+      left: 20px;
+      top: 200px;
+      width: 150px;
+      font-size: 0.8em;
+    }
+  }
+</style>
+
+* TOC
+{:toc .toc}
 # Mask Scalper
 
 Mask Scalper is a fast-paced point-and-click game developed for Global Game Jam 2026 that blends hidden-object mechanics with an endless gameplay loop, placing players in the shoes of a desperate "Mask Scalper" attempting to buy up every mask in town.
@@ -45,7 +59,7 @@ I was the lead developer, lead audio engineer, and project manager.
 
 # Code Sample
 
-https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7
+<video src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7"> 
 
 ```C#
 public class NPCHand : MonoBehaviour
