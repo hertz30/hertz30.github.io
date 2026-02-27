@@ -25,29 +25,21 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 <button onclick="pauseAllForest()">Pause "Forest" Composition</button>
 <button onclick="resetAllForest()">Reset Progress</button>
 
-<label for="Forest_Djembe">Djembe</label>
-<audio id="Forest_Djembe" controls><source src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Djembe">Djembe</label><audio id="Forest_Djembe" controls><source src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Tambourine">Tambourine</label>
-<audio id="Forest_Tambourine" controls><source src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Tambourine">Tambourine</label><audio id="Forest_Tambourine" controls><source src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Harp">Harp</label>
-<audio id="Forest_Harp" controls><source src="audio/Forest/ForestMusicDraft_Harp_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Harp">Harp</label><audio id="Forest_Harp" controls><source src="audio/Forest/ForestMusicDraft_Harp_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Ocarina">Ocarina</label>
-<audio id="Forest_Ocarina" controls><source src="audio/Forest/ForestMusicDraft_Ocarina_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Ocarina">Ocarina</label><audio id="Forest_Ocarina" controls><source src="audio/Forest/ForestMusicDraft_Ocarina_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Ocarina2">Ocarina2</label>
-<audio id="Forest_Ocarina2" controls><source src="audio/Forest/ForestMusicDraft_Ocarina2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Ocarina2">Ocarina2</label><audio id="Forest_Ocarina2" controls><source src="audio/Forest/ForestMusicDraft_Ocarina2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Strings">Strings</label>
-<audio id="Forest_Strings" controls><source src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Strings">Strings</label><audio id="Forest_Strings" controls><source src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Strings2">Strings2</label>
-<audio id="Forest_Strings2" controls><source src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Strings2">Strings2</label><audio id="Forest_Strings2" controls><source src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-<label for="Forest_Strings3">Strings3</label>
-<audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
+<label for="Forest_Strings3">Strings3</label><audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
 <br>
 <script>
@@ -108,26 +100,19 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 <button onclick="pauseAllVillage()">Pause "Village" Composition</button>
 <button onclick="resetAllVillage()">Reset Progress</button>
 
-<label for="Village_BackgroundFlute">BackgroundFlute</label>
-<audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<label for="Village_BackgroundFlute">BackgroundFlute</label><audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
-<label for="Village_Flute">Flute</label>
-<audio id="Village_Flute" controls><source src="audio/Village/Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<label for="Village_Flute">Flute</label><audio id="Village_Flute" controls><source src="audio/Village/Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
-<label for="Village_Flute2">Flute2</label>
-<audio id="Village_Flute2" controls><source src="audio/Village/Village_Flute2_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<label for="Village_Flute2">Flute2</label><audio id="Village_Flute2" controls><source src="audio/Village/Village_Flute2_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
-<label for="Village_Harp">Harp</label>
-<audio id="Village_Harp" controls><source src="audio/Village/Village_Harp_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<label for="Village_Harp">Harp</label><audio id="Village_Harp" controls><source src="audio/Village/Village_Harp_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
-<label for="Village_Strings">Strings</label>
-<audio id="Village_Strings" controls><source src="audio/Village/Village_Strings_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<label for="Village_Strings">Strings</label><audio id="Village_Strings" controls><source src="audio/Village/Village_Strings_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
-<label for="Village_Strings2">Strings2</label>
-<audio id="Village_Strings2" controls><source src="audio/Village/Village_Strings2_120bpm4-4_L24M_P1B.wav" type="audio/wav"></audio>
+<label for="Village_Strings2">Strings2</label><audio id="Village_Strings2" controls><source src="audio/Village/Village_Strings2_120bpm4-4_L24M_P1B.wav" type="audio/wav"></audio>
 
-<label for="Village_Synth">Synth</label>
-<audio id="Village_Synth" controls><source src="audio/Village/Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
+<label for="Village_Synth">Synth</label><audio id="Village_Synth" controls><source src="audio/Village/Village_Synth_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 
 <br>
 <script>
