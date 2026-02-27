@@ -21,39 +21,39 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 {::nomarkdown}
 <style>
-  .audio-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;       
-    margin-bottom: 12px;
-    gap: 8px 15px;         
-    width: 100%;          
-  }
-
-  .audio-row label {
-    flex: 0 0 auto;        
-    min-width: 80px;      
-    max-width: 100%;       
-    font-weight: 600;
-    font-family: sans-serif;
-  }
-
-  .audio-row audio {
-    flex: 1 1 250px;      
-    max-width: 100%;       
-  }
-
   .controls-header {
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;       
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
-  button {
-    cursor: pointer;
-    padding: 8px 16px;     
-    flex: 0 1 auto;        
+  .audio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px; 
+    width: 100%;
+  }
+
+  .audio-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    flex: 1 1 calc(50% - 20px); 
+    min-width: 300px;           
+    gap: 10px;
+  }
+
+  .audio-row label {
+    flex: 1;           
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: left;
+  }
+
+  .audio-row audio {
+    flex: 1;                   /* Player fills remaining space */
+    max-width: 50%;          /* Prevents players from getting too wide */
   }
 </style>
 
@@ -63,44 +63,46 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   <button onclick="resetAllForest()">Reset Progress</button>
 </div>
 
-<div class="audio-row">
-  <label for="Forest_Djembe">Djembe</label>
-  <audio id="Forest_Djembe" controls src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav"></audio>
-</div>
+<div class="audio-grid">
+  <div class="audio-row">
+    <label for="Forest_Djembe">Djembe</label>
+    <audio id="Forest_Djembe" controls src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Tambourine">Tambourine</label>
-  <audio id="Forest_Tambourine" controls src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav"></audio>
-</div>
+  <div class="audio-row">
+    <label for="Forest_Tambourine">Tambourine</label>
+    <audio id="Forest_Tambourine" controls src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Harp">Harp</label>
-  <audio id="Forest_Harp" controls src="audio/Forest/ForestMusicDraft_Harp_120bpm4-4_L20M.wav"></audio>
-</div>
+  <div class="audio-row">
+    <label for="Forest_Harp">Harp</label>
+    <audio id="Forest_Harp" controls src="audio/Forest/ForestMusicDraft_Harp_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Ocarina">Ocarina</label>
-  <audio id="Forest_Ocarina" controls src="audio/Forest/ForestMusicDraft_Ocarina_120bpm4-4_L20M.wav"></audio>
-</div>
+  <div class="audio-row">
+    <label for="Forest_Ocarina">Ocarina</label>
+    <audio id="Forest_Ocarina" controls src="audio/Forest/ForestMusicDraft_Ocarina_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Ocarina2">Ocarina 2</label>
-  <audio id="Forest_Ocarina2" controls src="audio/Forest/ForestMusicDraft_Ocarina2_120bpm4-4_L20M.wav"></audio>
-</div>
+  <div class="audio-row">
+    <label for="Forest_Ocarina2">Ocarina 2</label>
+    <audio id="Forest_Ocarina2" controls src="audio/Forest/ForestMusicDraft_Ocarina2_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Strings">Strings</label>
-  <audio id="Forest_Strings" controls src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav"></audio>
-</div>
+  <div class="audio-row">
+    <label for="Forest_Strings">Strings</label>
+    <audio id="Forest_Strings" controls src="audio/Forest/ForestMusicDraft_Strings_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Strings2">Strings 2</label>
-  <audio id="Forest_Strings2" controls src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav"></audio>
-</div>
+  <div class="audio-row">
+    <label for="Forest_Strings2">Strings 2</label>
+    <audio id="Forest_Strings2" controls src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav"></audio>
+  </div>
 
-<div class="audio-row">
-  <label for="Forest_Strings3">Strings 3</label>
-  <audio id="Forest_Strings3" controls src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav"></audio>
+  <div class="audio-row">
+    <label for="Forest_Strings3">Strings 3</label>
+    <audio id="Forest_Strings3" controls src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav"></audio>
+  </div>
 </div>
 
 <script>
