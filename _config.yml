@@ -7,3 +7,15 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
 - jekyll-include-cache
+
+author:
+  name   : "Haiying Zeng"
+  avatar : "/assets/images/headshot.jpg" # This uses the logo you already uploaded
+  bio    : "Game Developer, Composer, and Programmer."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hertz30"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/haiying-zeng/"
