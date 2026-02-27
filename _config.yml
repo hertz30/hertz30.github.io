@@ -24,6 +24,9 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/haiying-zeng/"
 
+toc_min_heading: 1
+toc_max_heading: 3
+
 defaults:
   - scope:
       path: ""
