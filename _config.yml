@@ -1,3 +1,5 @@
-theme: pages-themes/leap-day@v0.2.0
+remote_theme: pages-themes/leap-day@v0.2.0
 title: Hertz Identity
 description: Haiying Zeng
+plugins:
+- jekyll-remote-theme
