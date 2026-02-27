@@ -164,9 +164,11 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 
 {::nomarkdown}
-<button onclick="playAllVillage()">Play "Village" Composition</button>
-<button onclick="pauseAllVillage()">Pause "Village" Composition</button>
-<button onclick="resetAllVillage()">Reset Progress</button>
+<div class="controls-header">
+  <button onclick="playAllVillage()">Play "Village" Composition</button>
+  <button onclick="pauseAllVillage()">Pause "Village" Composition</button>
+  <button onclick="resetAllVillage()">Reset Progress</button>
+</div>
 
 <div class="audio-grid">
   <div class="audio-row">
