@@ -18,7 +18,7 @@ layout: single
 <audio id="Forest_Strings2" controls><source src="audio/Forest/ForestMusicDraft_Strings2_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 <audio id="Forest_Strings3" controls><source src="audio/Forest/ForestMusicDraft_Strings3_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 
-
+{::nomarkdown}
 <br>
 <script>
   const tracks = {
@@ -62,4 +62,4 @@ layout: single
   }
 </script>
 
-
+{:/nomarkdown}
