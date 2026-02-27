@@ -1,6 +1,7 @@
 ---
 title: "Mask Scalper"
 permalink: /Mask-Scalper
+layout: single
 ---
 # Mask Scalper
 
