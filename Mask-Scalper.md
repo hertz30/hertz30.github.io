@@ -8,7 +8,10 @@ Mask Scalper is a fast-paced point-and-click game developed for Global Game Jam 
 
 The game is a satirical take on the COVID-19 pandemic inspired by both the widely hated phenomenon of "Scalpers" who buy up all supply of a commodity in order to drive up prices, as well as the human instinct to panic buy things in times of chaos (Which we saw during 2026's winter storm Fern, reminding our team of the chaos of the COVID-19 era).
 
-https://github.com/user-attachments/assets/e048df6e-f553-479d-a468-2a5d0f310d2f
+<video width="100%" controls>
+  <source src="https://github.com/user-attachments/assets/e048df6e-f553-479d-a468-2a5d0f310d2f" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 An expanded Steam release is planned. 
 
@@ -46,7 +49,7 @@ I was the lead developer, lead audio engineer, and project manager.
 # Code Sample
 
 <video width="100%" controls>
-  <source src="https://github.com/user-attachments/assets/e048df6e-f553-479d-a468-2a5d0f310d2f" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
