@@ -8,6 +8,7 @@ layout: single
 
 <button onclick="playAllForest()">Play "Forest" Track</button>
 <button onclick="pauseAllForest()">Pause "Forest" Track</button>
+<button onclick="resetAllForest()">Reset Progress</button>
 
 <audio id="Forest_Djembe" controls><source src="audio/Forest/ForestMusicDraft_Djembe - Neon_120bpm4-4_L20M.wav" type="audio/wav"></audio>
 <audio id="Forest_Tambourine" controls><source src="audio/Forest/ForestMusicDraft_Tambourine_120bpm4-4_L20M.wav" type="audio/wav"></audio>
@@ -32,33 +33,39 @@ layout: single
     str3: document.getElementById('Forest_Strings3')
   };
 
-  const forestTrackArray = Object.values(tracks);
+  const forestTrackArray = Object.values(forestTracks);
 
-  tracks.djembe.volume = 0.7;
-  tracks.tambourine.volume = 1.0;
-  tracks.harp.volume = 1.0;
-  tracks.oc1.volume = 0.5;
-  tracks.oc2.volume = 0.3;
-  tracks.str1.volume = 0.1;
-  tracks.str2.volume = 0.15;
-  tracks.str3.volume = 0.1;
+  forestTracks.djembe.volume = 0.7;
+  forestTracks.tambourine.volume = 1.0;
+  forestTracks.harp.volume = 1.0;
+  forestTracks.oc1.volume = 0.5;
+  forestTracks.oc2.volume = 0.3;
+  forestTracks.str1.volume = 0.1;
+  forestTracks.str2.volume = 0.15;
+  forestTracks.str3.volume = 0.1;
 
-  tracks.djembe.onended = function() {
-    trackArray.forEach(t => {
+  forestTracks.djembe.onended = function() {
+    forestTrackArray.forEach(t => {
       t.currentTime = 0;
       t.play();
     });
   };
 
   function playAllForest() {
-    trackArray.forEach(t => {
-      t.currentTime = 0;
+    forestTrackArray.forEach(t => {
       t.play();
     });
   }
 
   function pauseAllForest() {
-    trackArray.forEach(t => t.pause());
+    forestTrackArray.forEach(t => t.pause());
+  }
+
+  function resetAllForest() {
+    forestTrackArray.forEach(track => {
+      track.pause();
+      track.currentTime = 0;
+    });
   }
 </script>
 
@@ -68,6 +75,7 @@ layout: single
 
 <button onclick="playAllVillage()">Play "Village" Track</button>
 <button onclick="pauseAllVillage()">Pause "Village" Track</button>
+<button onclick="resetAllVillage()">Reset Progress</button>
 
 <audio id="Village_BackgroundFlute" controls><source src="audio/Village/Village_BackgroundFlute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
 <audio id="Village_Flute" controls><source src="audio/Village/Village_Flute_120bpm4-4_L24M.wav" type="audio/wav"></audio>
@@ -90,32 +98,38 @@ layout: single
     synth: document.getElementById('Village_Synth')
   };
 
-  const villageTrackArray = Object.values(tracks);
+  const villageTrackArray = Object.values(villageTracks);
 
-  tracks.bgFlute.volume = 1;
-  tracks.flute1.volume = 1.0;
-  tracks.flute2.volume = 1;
-  tracks.harp.volume = 1;
-  tracks.str1.volume = 1;
-  tracks.str2.volume = 1;
-  tracks.synth.volume = 1;
+  villageTracks.bgFlute.volume = 1.0;
+  villageTracks.flute1.volume = 1.0;
+  villageTracks.flute2.volume = 1.0;
+  villageTracks.harp.volume = 1.0;
+  villageTracks.str1.volume = 1.0;
+  villageTracks.str2.volume = 1.0;
+  villageTracks.synth.volume = 1.0;
 
-  tracks.bgFlute.onended = function() {
-    trackArray.forEach(t => {
+  villageTracks.bgFlute.onended = function() {
+    villageTrackArray.forEach(t => {
       t.currentTime = 0;
       t.play();
     });
   };
 
   function playAllVillage() {
-    trackArray.forEach(t => {
-      t.currentTime = 0;
+    villageTrackArray.forEach(t => {
       t.play();
     });
   }
 
   function pauseAllVillage() {
-    trackArray.forEach(t => t.pause());
+    villageTrackArray.forEach(t => t.pause());
+  }
+
+  function resetAllVillage() {
+    villageTrackArray.forEach(t => {
+      t.pause();
+      t.currentTime = 0;
+    });
   }
 </script>
 {:/nomarkdown}
