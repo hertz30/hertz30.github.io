@@ -40,7 +40,7 @@ I was the lead developer, lead audio engineer, and project manager.
 * We had a strict 48-hour deadline for the Global Game Jam. I was the most experienced game developer on this team, so I was also in charge of task delegation and version control, ensuring a polished build was ready for the final GGJ presentation.
 * Directed a cross-functional team of four: Nicholas (Developer), Trent (Artist), and Austin (Composer), as well as myself.
     * Trent Mason worked on assets, models, and textures for the game, including many of the sound effects we used.
-    * Austin Hawkesworth made our music, which really sets the tone for the game. He also planned out our UI, and will also be making our trailer for the Steam release.
+    * Austin Hawkesworth made our music, which really sets the tone for the game. He also planned out our UI and wrote the story presented in the intro cutscene. He will be making our trailer for the Steam release.
     * Nicholas Kajiwara did a bit of everything, he worked on the intro/outro sequences of the game and did a great job. He also implemented a lot of sounds throughout the game, and compressed a lot of textures as well as did some art to achieve the low-fidelity artstyle that we were going for.
 * For our presentation, I was the only available representative, so I was responsible for polishing the demo, publishing a build, and presenting the project as the team lead. I also spearheaded the effort to bring the game to Steam.
 
