@@ -34,17 +34,17 @@ I was the lead developer, lead audio engineer, and project manager.
 ### Lead audio engineer:
 * Spearheaded the migration to FMOD, optimizing audio stability for WebGL deployment.
 * Both the other developer, Nicholas, and I had experience in WWise, which was very helpful as he was able to quickly pick up FMOD and I was able to delegate some of the SFX integration to him.
-* Implemented dynamic music scaling, using FMOD to procedurally increase tempo and tension as the game difficulty ramps up, in order to induce a creeping feeling of anxiety. 
+* Implemented dynamic music transitions and scaling, using FMOD to procedurally increase tempo and tension as the game difficulty ramps up, in order to induce a creeping feeling of anxiety. 
 
 ### Project manager:
 * We had a strict 48-hour deadline for the Global Game Jam. I was the most experienced game developer on this team, so I was also in charge of task delegation and version control, ensuring a polished build was ready for the final GGJ presentation.
-* Directed a cross-functional team of four: A developer (Nicholas), an artist (Trent), and a composer (Austin), as well as myself.
-    * Trent worked on finding and making assets, models, and textures for the game. He also provided many of the sound effects we used.
-    * Austin made our music, which really sets the tone for the game and is absolutely fantastic. He also planned out our UI, and will also be making our trailer for the Steam release.
-    * Nicholas did a bit of everything, he worked on the intro/outro sequences of the game and did a great job. He also implemented a lot of sounds throughout the game, and compressed a lot of textures as well as did some art to achieve the low-fidelity artstyle that we were going for.
-* For our presentation, Trent and Austin were out of town, while Nicholas had stayed up all night working on the game and was out of commission, so I was responsible for polishing the demo, publishing a build, and presenting the project as the primary team representative. 
+* Directed a cross-functional team of four: Nicholas (Developer), Trent (Artist), and Austin (Composer), as well as myself.
+    * Trent Mason worked on assets, models, and textures for the game, including many of the sound effects we used.
+    * Austin Hawkesworth made our music, which really sets the tone for the game. He also planned out our UI, and will also be making our trailer for the Steam release.
+    * Nicholas Kajiwara did a bit of everything, he worked on the intro/outro sequences of the game and did a great job. He also implemented a lot of sounds throughout the game, and compressed a lot of textures as well as did some art to achieve the low-fidelity artstyle that we were going for.
+* For our presentation, I was the only available representative, so I was responsible for polishing the demo, publishing a build, and presenting the project as the team lead. I also spearheaded the effort to bring the game to Steam.
 
-## Code Sample: Enemy System
+## Demo Code Sample: Enemy System
 
 <video width="100%" controls>
   <source src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7" type="video/mp4">
