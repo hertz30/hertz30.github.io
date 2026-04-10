@@ -380,6 +380,8 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   }
   const allBattleTracks = Object.values(battleMusic).flatMap(category => Object.values(category));
 
+  battleMusicCore.Shaker.onended = playRandomBattle();
+
   async function playRandomBattle() {
     allBattleTracks.forEach(t => {
         if (t) {
