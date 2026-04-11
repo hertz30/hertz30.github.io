@@ -359,6 +359,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     Dizi1: document.getElementById('BattleMusic_Dizi1_130bpm4'),
     Dizi2: document.getElementById('BattleMusic_Dizi2_130bpm4'),
     Dizi3: document.getElementById('BattleMusic_Dizi3_130bpm4'),
+    Dizi4: null,
   };
   const battleMusicGlass = {
     Glass1: document.getElementById('BattleMusic_Glass1_130bpm4'),
