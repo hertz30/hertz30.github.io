@@ -359,7 +359,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     Dizi1: document.getElementById('BattleMusic_Dizi1_130bpm4'),
     Dizi2: document.getElementById('BattleMusic_Dizi2_130bpm4'),
     Dizi3: document.getElementById('BattleMusic_Dizi3_130bpm4'),
-    Dizi4: null,
   };
   const battleMusicGlass = {
     Glass1: document.getElementById('BattleMusic_Glass1_130bpm4'),
@@ -407,6 +406,13 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     const categories = ['bass', 'dizi', 'glass', 'strings'];
     for (const cat of categories) {
         const tracks = Object.values(battleMusic[cat]);
+
+        if (cat === 'dizi' && Math.random() < 0.25) 
+        {
+        console.log("Dizi skipped this round");
+        continue; 
+        }
+
         const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
         await safePlay(randomTrack);
     }
