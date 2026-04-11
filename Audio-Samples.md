@@ -413,13 +413,19 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 }
 
 function pauseAllBattle() {
-    allBattleTracks.forEach(t => t.pause());
+    allBattleTracks.forEach(t => {
+        if (t) {
+            t.pause();
+        }
+    });
 }
 
 function resetAllBattle() {
     allBattleTracks.forEach(t => {
-        t.pause();
-        t.currentTime = 0;
+        if (t) {
+            t.pause();
+            t.currentTime = 0;
+        }
     });
 }
 </script>
