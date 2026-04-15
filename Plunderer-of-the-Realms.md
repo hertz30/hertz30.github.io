@@ -10,6 +10,11 @@ Click above to access the demo.
 
 Plunderer of the Realms is a non-linear action RPG that challenges players to navigate the treacherous kingdom of Tulvaria. Stepping into the role of a shadowy elf thief, players must raid four distinct kingdoms to reclaim stolen gemstones. The project focuses on strategic combat and atmospheric world-building, culminating in a final ascent of the central Wizard Tower.
 
+<video width="100%" controls>
+  <source src="assets\Videos\PlundererOfTheRealms.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Project Roles
 I was a gameplay programmer, audio engineer, and composer.
 
