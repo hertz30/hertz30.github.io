@@ -2,6 +2,7 @@
 title: "Mask Scalper"
 permalink: /Mask-Scalper
 layout: single
+excerpt: "A fast-paced Covid-19 simulator created for the 2026 Global Game Jam."
 ---
 
 [![Play the demo here: Clickable link to Itch.io](https://github.com/user-attachments/assets/5f720069-0f73-4ddf-82e1-821731b6e795)](https://hzeng.itch.io/mask-scalper)

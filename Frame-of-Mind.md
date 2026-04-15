@@ -2,6 +2,7 @@
 title: "Frame of Mind"
 permalink: /Frame-of-Mind
 layout: single
+excerpt: "A wordless adventure game developed for the Unlikely Collaborators™ Game Jam."
 ---
 
 [![Play the demo here: Clickable link to Itch.io](assets\images\FrameOfMindBkg.png)](https://rjp5546.itch.io/frameofmind)

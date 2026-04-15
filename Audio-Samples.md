@@ -5,7 +5,7 @@ layout: single
 ---
 Listen to various audio tracks I've composed over the years.
 
-# Dynamic Compositions Instructions
+# Interactive Compositions
 Many of my compositions have been deconstructed as individual instrument tracks to support maximum interactivity in-game. I've made a custom audio player for you to hear them as intended. Take a listen! 
 
 Audio elements can be played individually. You can mute or adjust the volume of individual audio elements if you'd like to hear the composition mixed differently. 
@@ -256,7 +256,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 {:/nomarkdown}
 
 
-## Smuggler's Run: Interstellar Escape Music
+# Smuggler's Run: Interstellar Escape Music
 
 <div class="audio-grid">
 

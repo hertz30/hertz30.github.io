@@ -2,6 +2,7 @@
 title: "Plunderer of the Realms"
 permalink: /Plunderer-of-the-Realms
 layout: single
+excerpt: "A non-linear action RPG that challenges players to steal treasures from the hearts of 4 kingdoms."
 ---
 
 [![Play the demo here: Clickable link to Itch.io](assets\images\Plunderer-of-the-Realms.png)](https://tulsano-wibisono.itch.io/plunderer-of-the-realms)
