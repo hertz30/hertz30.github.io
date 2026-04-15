@@ -6,7 +6,7 @@ layout: single
 Listen to various audio tracks I've composed over the years.
 
 # Dynamic Compositions Instructions
-Many of my compositions have been broken down by individual instrument tracks to support maximum interactivity in-game. I've made a custom audio player for you to hear them as intended. Take a listen! 
+Many of my compositions have been deconstructed as individual instrument tracks to support maximum interactivity in-game. I've made a custom audio player for you to hear them as intended. Take a listen! 
 
 Audio elements can be played individually. You can mute or adjust the volume of individual audio elements if you'd like to hear the composition mixed differently. 
 
@@ -17,7 +17,7 @@ Click the "Pause \_\_\_ Composition" button to pause all tracks for the given co
 Click the "Reset Progress" button to reset all tracks to the beginning. This syncs them back up (If you decide to solo a track). Note that the music player will automatically loop without pressing this button.
 
 
-## Composition: "Forest"
+## Interactive Composition: "Forest"
 
 {::nomarkdown}
 <style>
@@ -160,7 +160,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 </script>
 {:/nomarkdown}
 
-## Composition: "Village"
+## Interactive Composition: "Village"
 
 
 {::nomarkdown}
@@ -255,178 +255,17 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 </script>
 {:/nomarkdown}
 
-## Plunderer of the Realms (Action-Adventure) Theme
 
-
-{::nomarkdown}
-<div class="controls-header">
-  <button onclick="playRandomBattle()">Play "Plunderer of the Realms" Composition</button>
-  <button onclick="pauseAllBattle()">Pause "Plunderer of the Realms" Composition</button>
-  <button onclick="resetAllBattle()">Reset Progress</button>
-</div>
+## Smuggler's Run: Interstellar Escape Music
 
 <div class="audio-grid">
 
   <div class="audio-row">
-    <label for="BattleMusic_Drums_130bpm4">Drums</label>
-    <audio id="BattleMusic_Drums_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Drums_130bpm4-4_L8M_P0.wav"></audio>
+    <label for="SpaceGame_Level">Level</label>
+    <audio id="SpaceGame_Level" controls src="audio\Smuggler's Run\SpaceGame_Level.wav"></audio>
   </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_Shaker_130bpm4">Shaker</label>
-    <audio id="BattleMusic_Shaker_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Shaker_130bpm4-4_L8M_P0.wav"></audio>
+    <div class="audio-row">
+    <label for="SpaceGame_Menu">Menu</label>
+    <audio id="SpaceGame_Menu" controls src="audio\Smuggler's Run\SpaceGame_Menu.wav"></audio>
   </div>
-
-  <div class="audio-row">
-    <label for="BattleMusic_Bass_130bpm4">Bass1</label>
-    <audio id="BattleMusic_Bass_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Bass_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-
-  <div class="audio-row">
-    <label for="BattleMusic_Bass2_130bpm4">Bass2</label>
-    <audio id="BattleMusic_Bass2_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Bass2_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-
-  <div class="audio-row">
-    <label for="BattleMusic_BassTwinkle_130bpm4">Bass3</label>
-    <audio id="BattleMusic_BassTwinkle_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_BassTwinkle_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-
-  <div class="audio-row">
-    <label for="BattleMusic_Dizi1_130bpm4">Dizi1</label>
-    <audio id="BattleMusic_Dizi1_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Dizi1_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-
-  <div class="audio-row">
-    <label for="BattleMusic_Dizi2_130bpm4">Dizi2</label>
-    <audio id="BattleMusic_Dizi2_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Dizi2_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-
-  <div class="audio-row">
-    <label for="BattleMusic_Dizi3_130bpm4">Dizi3</label>
-    <audio id="BattleMusic_Dizi3_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Dizi3_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_Glass1_130bpm4">Glass1</label>
-    <audio id="BattleMusic_Glass1_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Glass1_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_Glass2_130bpm4">Glass2</label>
-    <audio id="BattleMusic_Glass2_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Glass2_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_Glass3_130bpm4">Glass3</label>
-    <audio id="BattleMusic_Glass3_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Glass3_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_GlassTwinkle_130bpm4">Glass4</label>
-    <audio id="BattleMusic_GlassTwinkle_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_GlassTwinkle_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_Strings1_130bpm4">Strings1</label>
-    <audio id="BattleMusic_Strings1_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Strings1_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_Strings2_130bpm4">Strings2</label>
-    <audio id="BattleMusic_Strings2_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_Strings2_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
-  <div class="audio-row">
-    <label for="BattleMusic_StringTwinkle_130bpm4">Strings3</label>
-    <audio id="BattleMusic_StringTwinkle_130bpm4" controls src="audio/Plunderer of the Realms/BattleMusic_StringTwinkle_130bpm4-4_L8M_P0.wav"></audio>
-  </div>
-  
 </div>
-
-<br>
-<script>
-  const battleMusicCore = {
-    Shaker: document.getElementById('BattleMusic_Shaker_130bpm4'),
-    Drums: document.getElementById('BattleMusic_Drums_130bpm4'),
-  };
-  const battleMusicBass = {
-    Bass1: document.getElementById('BattleMusic_Bass_130bpm4'),
-    Bass2: document.getElementById('BattleMusic_Bass2_130bpm4'),
-    Bass3: document.getElementById('BattleMusic_BassTwinkle_130bpm4'),
-  };
-  const battleMusicDizi = {
-    Dizi1: document.getElementById('BattleMusic_Dizi1_130bpm4'),
-    Dizi2: document.getElementById('BattleMusic_Dizi2_130bpm4'),
-    Dizi3: document.getElementById('BattleMusic_Dizi3_130bpm4'),
-  };
-  const battleMusicGlass = {
-    Glass1: document.getElementById('BattleMusic_Glass1_130bpm4'),
-    Glass2: document.getElementById('BattleMusic_Glass2_130bpm4'),
-    Glass3: document.getElementById('BattleMusic_Glass3_130bpm4'),
-    Glass4: document.getElementById('BattleMusic_GlassTwinkle_130bpm4'),
-  };
-  const battleMusicStrings = {
-    Strings1: document.getElementById('BattleMusic_Strings1_130bpm4'),
-    Strings2: document.getElementById('BattleMusic_Strings2_130bpm4'),
-    Strings3: document.getElementById('BattleMusic_StringTwinkle_130bpm4'),
-  };
-  const battleMusic = {
-    core: battleMusicCore,
-    bass: battleMusicBass,
-    dizi: battleMusicDizi,
-    glass: battleMusicGlass,
-    strings: battleMusicStrings
-  }
-  const allBattleTracks = Object.values(battleMusic).flatMap(category => Object.values(category));
-
-  battleMusicCore.Shaker.onended = playRandomBattle;
-
-  async function playRandomBattle() {
-    allBattleTracks.forEach(t => {
-        if (t) {
-            t.pause();
-            t.currentTime = 0;
-        }
-    });
-
-    const safePlay = async (audioElement) => {
-        if (!audioElement) return;
-        try {
-            await audioElement.play();
-        } catch (err) {
-            console.warn("Play interrupted or blocked:", err);
-        }
-    };
-
-    for (const t of Object.values(battleMusic.core)) {
-        await safePlay(t);
-    }
-
-    const categories = ['bass', 'dizi', 'glass', 'strings'];
-    for (const cat of categories) {
-        const tracks = Object.values(battleMusic[cat]);
-
-        if (cat === 'dizi' && Math.random() < 0.25) 
-        {
-        console.log("Dizi skipped this round");
-        continue; 
-        }
-
-        const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
-        await safePlay(randomTrack);
-    }
-}
-
-function pauseAllBattle() {
-    allBattleTracks.forEach(t => t.pause());
-}
-
-function resetAllBattle() {
-    allBattleTracks.forEach(t => {
-        t.pause();
-        t.currentTime = 0;
-    });
-}
-</script>
-{:/nomarkdown}

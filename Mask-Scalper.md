@@ -20,7 +20,7 @@ An expanded Steam release is planned.
 
 ## Project Roles
 
-I was the lead developer, lead audio engineer, and project manager. 
+I was the project manager, lead audio engineer, and gameplay developer.
 
 ### Lead developer: 
 * I engineered the main gameplay of the game.

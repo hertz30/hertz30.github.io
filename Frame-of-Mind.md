@@ -31,8 +31,6 @@ Frame of Mind is a wordless adventure game developed for the Unlikely Collaborat
 * Audio Engineering & Mixing: Balanced SFX and music volumes in-engine and implemented functional audio settings, linking the UI directly to FMOD buses for player customization.
 
 ## Technical Breakdown: Cutscene Audio Composition
-
-Technical Breakdown: Cutscene Audio Composition
 This showcase demonstrates the intended SFX and music synchronization for narrative sequences.
 <video width="100%" controls>
   <source src="assets/Videos/FrameOfMind1.mp4" type="video/mp4">
