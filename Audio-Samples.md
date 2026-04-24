@@ -257,7 +257,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 
 ## Smuggler's Run: Interstellar Escape Music
-{::nomarkdown}
 <div class="audio-grid">
   <div class="audio-row">
     <label for="SpaceGame_Level">Level</label>
@@ -268,54 +267,47 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     <audio id="SpaceGame_Menu" controls loop src="audio\Smuggler's Run\SpaceGame_Menu.wav"></audio>
   </div>
   </div>
-{:/nomarkdown}
 
-## 8-Bit Inspired
-{::nomarkdown}
+## Childhood (8-bit)
 <div class="audio-grid">
   <div class="audio-row">
     <label for="8bit">Level</label>
     <audio id="8bit" controls loop src="audio\Misc\8BitInspired.m4a"></audio>
   </div>
   </div>
-  <script>
-    
-{:/nomarkdown}
 
 ## Canon Event (Pachelbel Remix)
-{::nomarkdown}
 <div class="audio-grid">
   <div class="audio-row">
     <label for="Canon">Level</label>
     <audio id="Canon" controls loop src="audio\Misc\CanonEvent (Pachelbel_s Canon Remix).m4a"></audio>
   </div>
   </div>
-  
-{:/nomarkdown}
 
 ## Comfort ("Music Puzzles" Theme)
 Play the game on itch.io [here](https://hzeng.itch.io/music-puzzles).
-{::nomarkdown}
+
 <div class="audio-grid">
   <div class="audio-row">
     <label for="Cozy">Level</label>
     <audio id="Cozy" controls loop src="audio\Misc\CozyVibes.m4a"></audio>
   </div>
   </div>
-{:/nomarkdown}
 
 ## Daily Life ("Carbon Capture Simulation" Theme)
-{::nomarkdown}
+Play the demo on itch.io [here](https://theoneshrub.itch.io/ccus-2023-demo).
 <div class="audio-grid">
   <div class="audio-row">
     <label for="Cozy">Level</label>
     <audio id="Cozy" controls loop src="audio\Misc\GenericLevelMusicCCUS.m4a"></audio>
   </div>
   </div>
-{:/nomarkdown}
+
+<br>
+<br>
 
 # Links to Other Pages
-Some of my music which was made for specific games is being displayed on those games' pages. The below links will allow you to jump directly to them.
+Want to hear more? I’ve also composed music for the projects listed below. Click any link to jump directly to their respective pages and hear the full compositions in context.
 
 ## Interactive Composition: Blank Slate
 Jump to [Open World Compositions for Blank Slate](/Blank-Slate#open-world-compositions).
