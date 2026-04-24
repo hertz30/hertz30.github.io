@@ -112,11 +112,11 @@ font-size: 0.9rem;
 <div class="audio-grid">
     <div class="audio-row">
     <label for="Tutorial_Path">Tutorial</label>
-    <audio id="Tutorial_Path" controls src="audio\BlankSlate\Tutorial_PathMusic.wav"></audio>
+    <audio id="Tutorial_Path" controls loop src="audio\BlankSlate\Tutorial_PathMusic.wav"></audio>
   </div>
   <div class="audio-row">
     <label for="Intro_Cutscene">Cutscene</label>
-    <audio id="Intro_Cutscene" controls src="audio\BlankSlate\Intro_Cutscene.wav"></audio>
+    <audio id="Intro_Cutscene" controls loop src="audio\BlankSlate\Intro_Cutscene.wav"></audio>
   </div>
 </div>
 {:/nomarkdown}

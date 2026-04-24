@@ -257,24 +257,62 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 
 
 ## Smuggler's Run: Interstellar Escape Music
-
 {::nomarkdown}
 <div class="audio-grid">
-
   <div class="audio-row">
     <label for="SpaceGame_Level">Level</label>
-    <audio id="SpaceGame_Level" controls src="audio\Smuggler's Run\SpaceGame_Level.wav"></audio>
+    <audio id="SpaceGame_Level" controls loop src="audio\Smuggler's Run\SpaceGame_Level.wav"></audio>
   </div>
     <div class="audio-row">
     <label for="SpaceGame_Menu">Menu</label>
-    <audio id="SpaceGame_Menu" controls src="audio\Smuggler's Run\SpaceGame_Menu.wav"></audio>
+    <audio id="SpaceGame_Menu" controls loop src="audio\Smuggler's Run\SpaceGame_Menu.wav"></audio>
+  </div>
+  </div>
+{:/nomarkdown}
+
+## 8-Bit Inspired
+{::nomarkdown}
+<div class="audio-grid">
+  <div class="audio-row">
+    <label for="8bit">Level</label>
+    <audio id="8bit" controls loop src="audio\Misc\8BitInspired.m4a"></audio>
+  </div>
+  </div>
+  <script>
+    
+{:/nomarkdown}
+
+## Canon Event (Pachelbel Remix)
+{::nomarkdown}
+<div class="audio-grid">
+  <div class="audio-row">
+    <label for="Canon">Level</label>
+    <audio id="Canon" controls loop src="audio\Misc\CanonEvent (Pachelbel_s Canon Remix).m4a"></audio>
   </div>
   </div>
   
-<br>
-<br>
 {:/nomarkdown}
 
+## Comfort ("Music Puzzles" Theme)
+Play the game on itch.io [here](https://hzeng.itch.io/music-puzzles).
+{::nomarkdown}
+<div class="audio-grid">
+  <div class="audio-row">
+    <label for="Cozy">Level</label>
+    <audio id="Cozy" controls loop src="audio\Misc\CozyVibes.m4a"></audio>
+  </div>
+  </div>
+{:/nomarkdown}
+
+## Daily Life ("Carbon Capture Simulation" Theme)
+{::nomarkdown}
+<div class="audio-grid">
+  <div class="audio-row">
+    <label for="Cozy">Level</label>
+    <audio id="Cozy" controls loop src="audio\Misc\GenericLevelMusicCCUS.m4a"></audio>
+  </div>
+  </div>
+{:/nomarkdown}
 
 # Links to Other Pages
 Some of my music which was made for specific games is being displayed on those games' pages. The below links will allow you to jump directly to them.
