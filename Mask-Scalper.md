@@ -54,6 +54,7 @@ I was the project manager, lead audio engineer, and gameplay developer.
   Your browser does not support the video tag.
 </video>
 
+{% highlight csharp %}
     void Awake()//NPC Enemy Hands Behavior Code
     {
         if (mainCamera == null)
@@ -224,3 +225,5 @@ I was the project manager, lead audio engineer, and gameplay developer.
         }
             resetHand();
     }
+    
+{% endhighlight %}
