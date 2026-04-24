@@ -158,7 +158,7 @@ document.getElementById('Loop_1'), document.getElementById('Loop_2'),
 document.getElementById('Loop_3'), 
 ];
 
-voiceTrack.volume = 0.56;
+document.getElementById('Piano2').volume = 0.56;
 const voiceTrack = document.getElementById('Loop_Voice');
 const allTracks = [...preludeTracks, ...loopTracks, voiceTrack];
 
