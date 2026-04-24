@@ -271,7 +271,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 ## Childhood (8-bit)
 <div class="audio-grid">
   <div class="audio-row">
-    <label for="8bit">Level</label>
+    <label for="8bit">Childhood</label>
     <audio id="8bit" controls loop src="audio\Misc\8BitInspired.m4a"></audio>
   </div>
   </div>
@@ -279,7 +279,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 ## Canon Event (Pachelbel Remix)
 <div class="audio-grid">
   <div class="audio-row">
-    <label for="Canon">Level</label>
+    <label for="Canon">CanonEvent</label>
     <audio id="Canon" controls loop src="audio\Misc\CanonEvent (Pachelbel_s Canon Remix).m4a"></audio>
   </div>
   </div>
@@ -289,7 +289,7 @@ Play the game on itch.io [here](https://hzeng.itch.io/music-puzzles).
 
 <div class="audio-grid">
   <div class="audio-row">
-    <label for="Cozy">Level</label>
+    <label for="Cozy">Comfort</label>
     <audio id="Cozy" controls loop src="audio\Misc\CozyVibes.m4a"></audio>
   </div>
   </div>
@@ -298,7 +298,7 @@ Play the game on itch.io [here](https://hzeng.itch.io/music-puzzles).
 Play the demo on itch.io [here](https://theoneshrub.itch.io/ccus-2023-demo).
 <div class="audio-grid">
   <div class="audio-row">
-    <label for="Cozy">Level</label>
+    <label for="Cozy">Life</label>
     <audio id="Cozy" controls loop src="audio\Misc\GenericLevelMusicCCUS.m4a"></audio>
   </div>
   </div>
@@ -321,7 +321,7 @@ This section features three distinct variations of the game's main theme that ev
   * A dynamic, ramping version for the game’s climax, serving as a "return to form" for the final region.
 
 ## Interactive Composition: Plunderer of the Realms
-Jump to [Plunderer of the Realm Dynamic Main Theme](/Plunderer-of-the-Realms#interactive-composition-main-theme).
+Jump to [Dynamic Main Theme for Plunderer of the Realms](/Plunderer-of-the-Realms#interactive-composition-main-theme).
 
 One of the first game themes I ever composed, this theme features a dynamic looping structure with three or more variations for every instrument track.
 * The audio logic has been specifically ported from its original implementation into my custom interactive audio player.
