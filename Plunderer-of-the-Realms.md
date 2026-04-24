@@ -211,12 +211,12 @@ My composition for this game was deconstructed as individual instrument tracks t
   battleMusicCore.Shaker.onended = playRandomBattle;
 
   async function playRandomBattle() {
-    allBattleTracks.forEach(t => {
+    <!-- allBattleTracks.forEach(t => {
         if (t) {
             t.pause();
             t.currentTime = 0;
         }
-    });
+    }); -->
 
     const safePlay = async (audioElement) => {
         if (!audioElement) return;

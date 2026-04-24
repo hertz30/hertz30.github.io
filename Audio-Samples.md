@@ -256,8 +256,9 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 {:/nomarkdown}
 
 
-# Smuggler's Run: Interstellar Escape Music
+## Smuggler's Run: Interstellar Escape Music
 
+{::nomarkdown}
 <div class="audio-grid">
 
   <div class="audio-row">
@@ -268,4 +269,30 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
     <label for="SpaceGame_Menu">Menu</label>
     <audio id="SpaceGame_Menu" controls src="audio\Smuggler's Run\SpaceGame_Menu.wav"></audio>
   </div>
-</div>
+  </div>
+  
+<br>
+<br>
+{:/nomarkdown}
+
+
+# Links to Other Pages
+Some of my music which was made for specific games is being displayed on those games' pages. The below links will allow you to jump directly to them.
+
+## Interactive Composition: Blank Slate
+Jump to [Open World Compositions for Blank Slate](/Blank-Slate#open-world-compositions).
+
+This section features three distinct variations of the game's main theme that evolve with the player’s journey:
+* Tutorial: 
+  * A sparse, atmospheric arrangement as the player awakens in a strange world.
+* Opening Cutscene: 
+  * A livelier, fully-orchestrated version to mark the start of the adventure.
+* Wizard's Tower: 
+  * A dynamic, ramping version for the game’s climax, serving as a "return to form" for the final region.
+
+## Interactive Composition: Plunderer of the Realms
+Jump to [Plunderer of the Realm Dynamic Main Theme](/Plunderer-of-the-Realms#interactive-composition-main-theme).
+
+One of the first game themes I ever composed, this theme features a dynamic looping structure with three or more variations for every instrument track.
+* The audio logic has been specifically ported from its original implementation into my custom interactive audio player.
+* This allows you to demo the state-driven variations and track randomization directly in your browser, illustrating how the score responds to real-time gameplay.
