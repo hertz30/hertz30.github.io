@@ -12,14 +12,15 @@ Blank Slate is an adventure RPG developed by the 2023-2024 graduating class at t
 
 I served as a Composer, Sound Designer, and Audio Programmer, composing 3 of the game's 6 open world soundtracks and personally designing SFX and implementing many audio systems.
 
-Learn more about <a href="https://sites.utulsa.edu/csg/2025/11/14/blank-slate-a-development-story/">Blank Slate</a>.
+Learn more about <a href="https://sites.utulsa.edu/csg/2025/11/14/blank-slate-a-development-story/">Blank Slate</a>:
 <iframe title="Blank Slate: A Development Story | Senior Production 23–24" width="500" height="281" src="https://www.youtube.com/embed/1u-xRSiq3P8?feature=oembed&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
 ## Project Roles
 I was a Composer, Sound Designer, and Audio Programmer.
 
 ### Composing Musical Narrative & Motif Design
-* My composition work focused on creating a cohesive emotional thread through the use of a central "Main Theme" motif. This theme evolves alongside the player’s power and understanding of the world. All tracks can be previewed in the <a href="#open-world-compositions">Open World Compositions</a> section below.
+* My composition work focused on creating a cohesive emotional thread through the use of a central "Main Theme" motif. This theme evolves alongside the player’s power and understanding of the world. 
+* All tracks can be previewed in the <a href="#open-world-compositions">Open World Compositions</a> section below.
 * The Awakening: 
   * Introduced in the Opening Tutorial, the motif begins as a sparse, atmospheric arrangement. It then transitions into the Opening Cutscene music, building in intensity to mark the start of the player's quest.
 * The Final Return: 
@@ -188,7 +189,7 @@ playLoop();
 function playLoop() {
 
 // Play the 5 core loop tracks
-loopTracks.forEach(t > safePlay(t));
+loopTracks.forEach(t => safePlay(t));
 
 // Wwise Logic: Voice track randomly alternates
 if (Math.random() > 0.5) {
