@@ -5,8 +5,8 @@ layout: single
 excerpt: "A non-linear action RPG that challenges players to steal treasures from the hearts of 4 kingdoms."
 ---
 
-[![Play the demo here: Clickable link to Itch.io](assets\images\Plunderer-of-the-Realms.png)](https://tulsano-wibisono.itch.io/plunderer-of-the-realms)
-Click above to access the demo.
+![Plunderer of the Realms](assets\images\Plunderer-of-the-Realms.png)
+<iframe frameborder="0" src="https://itch.io/embed-upload/17172363?color=99defd" allowfullscreen="" width="640" height="380"><a href="https://tulsano-wibisono.itch.io/plunderer-of-the-realms">Play Plunderer of the Realms on itch.io</a></iframe>
 
 Plunderer of the Realms is a non-linear action RPG that challenges players to navigate the treacherous kingdom of Tulvaria. Stepping into the role of a shadowy elf thief, players must raid four distinct kingdoms to reclaim stolen gemstones. The project focuses on strategic combat and atmospheric world-building, culminating in a final ascent of the central Wizard Tower.
 

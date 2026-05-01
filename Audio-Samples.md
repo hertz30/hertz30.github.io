@@ -255,19 +255,6 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
 </script>
 {:/nomarkdown}
 
-
-## Smuggler's Run: Interstellar Escape Music
-<div class="audio-grid">
-  <div class="audio-row">
-    <label for="SpaceGame_Level">Level</label>
-    <audio id="SpaceGame_Level" controls loop src="audio\Smuggler's Run\SpaceGame_Level.wav"></audio>
-  </div>
-    <div class="audio-row">
-    <label for="SpaceGame_Menu">Menu</label>
-    <audio id="SpaceGame_Menu" controls loop src="audio\Smuggler's Run\SpaceGame_Menu.wav"></audio>
-  </div>
-  </div>
-
 ## Childhood (8-bit)
 <div class="audio-grid">
   <div class="audio-row">
@@ -285,7 +272,7 @@ Click the "Reset Progress" button to reset all tracks to the beginning. This syn
   </div>
 
 ## Comfort ("Music Puzzles" Theme)
-Play the game on itch.io [here](https://hzeng.itch.io/music-puzzles).
+<iframe frameborder="0" src="https://itch.io/embed/2322607" width="552" height="167"><a href="https://hzeng.itch.io/music-puzzles">Play Music Puzzles on itch.io</a></iframe>
 
 <div class="audio-grid">
   <div class="audio-row">
@@ -295,7 +282,7 @@ Play the game on itch.io [here](https://hzeng.itch.io/music-puzzles).
   </div>
 
 ## Daily Life ("Carbon Capture Simulation" Theme)
-Play the demo on itch.io [here](https://theoneshrub.itch.io/ccus-2023-demo).
+<iframe frameborder="0" src="https://itch.io/embed/2399402" width="552" height="167"><a href="https://hzeng.itch.io/music-puzzles">Play CCUS 2023 demo on itch.io</a></iframe>
 <div class="audio-grid">
   <div class="audio-row">
     <label for="Cozy">Life</label>
@@ -326,3 +313,17 @@ Jump to [Dynamic Main Theme for Plunderer of the Realms](/Plunderer-of-the-Realm
 One of the first game themes I ever composed, this theme features a dynamic looping structure with three or more variations for every instrument track.
 * The audio logic has been specifically ported from its original implementation into my custom interactive audio player.
 * This allows you to demo the state-driven variations and track randomization directly in your browser, illustrating how the score responds to real-time gameplay.
+
+## Main Theme: Smuggler's Run: Interstellar Escape
+Jump to [Open World Compositions for Blank Slate](/Smugglers-Run-Interstellar-Escape#smugglers-run-interstellar-escape-music).
+
+Composed for a fast-paced interstellar endless-runner, this theme emphasizes high-stakes tension through dynamic music. Built using heavy synthesizers and expansive reverb, the score delivers a futuristic sci-fi atmosphere that responds directly to the player's performance.
+
+* Immersive Speed-Up Effect: 
+  * The game features a tempo-shifting engine where the BPM increases the longer a player survives, heightening psychological tension as the gameplay difficulty scales.
+
+* Audio-Visual Synergy: 
+  * I designed and implemented bespoke sound effects for the game's Warp mechanic, providing critical tactile feedback that grounds the player during high-speed transitions between planetary environments.
+
+* Iterative Soundscapes: 
+  * The audio design underwent multiple iterations based on teammate feedback to ensure that environmental hazard cues were distinct and provided immediate, actionable feedback loops for the player.

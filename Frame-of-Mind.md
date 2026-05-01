@@ -5,8 +5,9 @@ layout: single
 excerpt: "A wordless adventure game developed for the Unlikely Collaborators™ Game Jam."
 ---
 
-[![Play the demo here: Clickable link to Itch.io](assets\images\FrameOfMindBkg.png)](https://rjp5546.itch.io/frameofmind)
-Click above to access the demo.
+![Frame of Mind](assets\images\FrameOfMindBkg.png)
+
+<iframe frameborder="0" src="https://itch.io/embed-upload/17093684?color=043ded" allowfullscreen="" width="640" height="380"><a href="https://rjp5546.itch.io/frameofmind">Play Frame of Mind on itch.io</a></iframe>
 
 Frame of Mind is a wordless adventure game developed for the Unlikely Collaborators™ Game Jam. The experience explores the player's connection to nature through visual and auditory discovery, reframing environmental perception as the journey progresses. Without dialogue, the project relies heavily on its sensory experience—specifically its evolving musical score and reactive environmental audio—to communicate its narrative arc.
 

@@ -5,8 +5,9 @@ layout: single
 excerpt: "A fast-paced Covid-19 simulator created for the 2026 Global Game Jam."
 ---
 
-[![Play the demo here: Clickable link to Itch.io](https://github.com/user-attachments/assets/5f720069-0f73-4ddf-82e1-821731b6e795)](https://hzeng.itch.io/mask-scalper)
-Click above to access the demo.
+![Mask Scalper](https://github.com/user-attachments/assets/5f720069-0f73-4ddf-82e1-821731b6e795)
+
+<iframe frameborder="0" src="https://itch.io/embed-upload/16353032?color=d5b99a" allowfullscreen="" width="640" height="380"><a href="https://hzeng.itch.io/mask-scalper">Play Mask Scalper on itch.io</a></iframe>
 
 Mask Scalper is a fast-paced point-and-click game developed for Global Game Jam 2026 that blends hidden-object mechanics with an endless gameplay loop, placing players in the shoes of a desperate "Mask Scalper" attempting to buy up every mask in town.
 
@@ -47,12 +48,14 @@ I was the project manager, lead audio engineer, and gameplay developer.
     * Nicholas Kajiwara did a bit of everything, he worked on the intro/outro sequences of the game and did a great job. He also implemented a lot of sounds throughout the game, and compressed a lot of textures as well as did some art to achieve the low-fidelity artstyle that we were going for.
 * For our presentation, I was the only available representative, so I was responsible for polishing the demo, publishing a build, and presenting the project as the team lead. I also spearheaded the effort to bring the game to Steam.
 
-## Demo Code Sample: Enemy System
+## Code Sample: Enemy System
 
 <video width="100%" controls>
   <source src="https://github.com/user-attachments/assets/4aa9a3c0-c880-4cb8-a129-0031e11ae1a7" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+This script manages the behavior of the competitive enemy system. It handles the procedural spawning of NPC hands, their target acquisition logic, and the physics-based "swatting" mechanic that allows players to defend their inventory.
 
 {% highlight csharp %}
     void Awake()//NPC Enemy Hands Behavior Code
