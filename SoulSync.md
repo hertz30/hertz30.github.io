@@ -18,20 +18,30 @@ Learn more about <a href="https://rjp5546.itch.io/soulsync">SoulSync</a> here:
 ## Project Roles
 
 ### Audio Programming & Technical Implementation
-* Wwise Integration: Managed the initial import and setup of the Wwise sound engine into the Unity project, ensuring a robust pipeline for the sound team.
-* Dynamic Music Systems: Programmed the trigger conditions for boss music and combat music in multiplayer. 
-* Global Audio Systems: Incorporated Music and SFX from the sound class and implemented comprehensive Audio Settings within the menus, allowing for real-time player mix adjustments.
+* Wwise Integration: 
+  * Managed the initial import and setup of the Wwise sound engine into the Unity project, ensuring a robust pipeline for the sound team.
+* Dynamic Music Systems: 
+  * Programmed the trigger conditions for boss music and combat music in multiplayer. 
+* Global Audio Systems: 
+  * Incorporated Music and SFX from the sound class and implemented comprehensive Audio Settings within the menus, allowing for real-time player mix adjustments.
 
 ### Gameplay Systems & Character Engineering
-* Character Abilities: Developed and implemented the ability kit for Felix, including Felix's basic abilities and custom physics solutions like the Tiger ragdoll.
-* Camera & Perspective: Designed the Player Camera System, conducting extensive viewpoint testing and control updates to ensure visibility in the originally intended isometric multiplayer environment.
-* Dialogue & Narrative: Built and refactored the Dialogue System, implementing logic for branching text, our adaptive Banter system (Enabling proximity and friendly fire dialogue), and resolving critical dialogue bugs to ensure smooth narrative delivery.
+* Character Abilities: 
+  * Developed and implemented the ability kit for Felix, including Felix's basic abilities and custom physics solutions like the Tiger ragdoll.
+* Camera & Perspective: 
+  * Designed the Player Camera System, conducting extensive viewpoint testing and control updates to ensure visibility in the originally intended isometric multiplayer environment.
+* Dialogue & Narrative: 
+  * Built and refactored the Dialogue System, implementing logic for branching text, our adaptive Banter system (Enabling proximity and friendly fire dialogue), and resolving critical dialogue bugs to ensure smooth narrative delivery.
 
 ### Technical Optimization & QA
-* Memory Leak Investigation: Led the troubleshooting for high-priority performance issues, helping to identify and resolve the Memory Leak Source.
-* Optimization Solutions: Implemented a custom Object Culling Solution and managed Frame Rate Settings to maintain stable performance during intense combat.
-* Input Rebinding: Built the Input Rebinding system and UI from the ground up, allowing players to fully customize their controls for both Mouse/Keyboard and Controller.
-* General QA: Conducted "Merge Day" QA bug-finding sessions, resolving critical issues with projectile collision, puzzle logic, and pause menu functionality.
+* Memory Leak Investigation: 
+  * Led the troubleshooting for high-priority performance issues, helping to identify and resolve the Memory Leak Source.
+* Optimization Solutions: 
+  * Implemented a custom Object Culling Solution and managed Frame Rate Settings to maintain stable performance during intense combat.
+* Input Rebinding: 
+  * Built the Input Rebinding system and UI from the ground up, allowing players to fully customize their controls for both Mouse/Keyboard and Controller.
+* General QA: 
+  * Conducted "Merge Day" QA bug-finding sessions, resolving critical issues with projectile collision, puzzle logic, and pause menu functionality.
 
 ## Code Sample: Dynamic Dialogue System
 To support the narrative depth of SoulSync, I developed a robust, data-driven dialogue system. This system was designed to give the narrative and audio teams maximum flexibility, allowing for complex interactions like proximity-based banter, friendly-fire reactions, and dynamic tutorial triggers.

@@ -23,9 +23,11 @@ While the demo has been adapted for keyboard and mouse, the intended experience 
 ## Project Roles
 This project was a collaborative effort between game developers and toy designers:
 
-Game Development team: Haiying Zeng, Ryan Pederson, William Gulick
+Game Development team: 
+Haiying Zeng, Ryan Pederson, William Gulick
 
-Toy Design (Hardware team): Jacob Peerson, Vincent Ume-Ezeoke, Carter Reed
+Toy Design (Hardware team): 
+Jacob Peerson, Vincent Ume-Ezeoke, Carter Reed
 
 I served as Lead Sound Designer and Systems Programmer.
 
