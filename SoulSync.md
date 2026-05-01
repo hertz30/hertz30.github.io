@@ -139,7 +139,7 @@ public class DialogueManager : Singleton<DialogueManager>
 }
 {% endhighlight %}
 
-## Technical Showcase: Cutscene Audio Interceptor
+## Code Sample: Cutscene Audio Interceptor
 
 In SoulSync, high-fidelity cinematics are crucial for storytelling. To ensure cutscene audio benefited from the same spatialization, reverb, and mixing bus effects as the rest of the game, I developed a custom Audio Interceptor. This system captures raw audio data from Unity’s VideoPlayer and pipes it directly into the Wwise audio engine as an external input.
 
