@@ -1,5 +1,5 @@
 ---
-title: "Audio-Samples"
+title: "Audio Samples"
 permalink: /Audio-Samples
 layout: single
 ---

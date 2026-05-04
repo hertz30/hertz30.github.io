@@ -1,0 +1,10 @@
+---
+# Front matter is required for Jekyll to process this file
+---
+
+$masthead-background-color: #0092cb;
+$masthead-link-color: #ffffff;
+$masthead-link-color-hover: #f3d3e0;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}";
+@import "minimal-mistakes";

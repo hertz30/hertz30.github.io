@@ -15,7 +15,7 @@ plugins:
 author:
   name   : "Haiying Zeng"
   avatar : "/assets/images/headshot.jpg"
-  bio    : "Game Developer, Composer, and Programmer."
+  bio    : "Game Developer, Composer, and Programmer"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
