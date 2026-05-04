@@ -1,10 +1,11 @@
----
-# Front matter is required for Jekyll to process this file
----
+@import "minimal-mistakes/skins/air"; // 1. Load the skin first
+@import "minimal-mistakes";           // 2. Load the theme base
 
-$masthead-background-color: #0092cb;
-$masthead-link-color: #ffffff;
-$masthead-link-color-hover: #f3d3e0;
+// 3. Add your custom CSS at the bottom to override the defaults
+.masthead {
+  background-color: #0092cb !important; // Change this to your hex color
+}
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}";
-@import "minimal-mistakes";
+.site-title {
+  color: #ffffff !important; // Change link color if the background is dark
+}
