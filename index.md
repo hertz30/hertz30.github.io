@@ -4,7 +4,6 @@ permalink: /
 layout: single
 excerpt: "Featuring Haiying Zeng's game projects, musical compositions, and code snippets"
 toc_label: "My Projects"
-hide_title: true
 ---
 ## Interactive Music Compositions
 [![Audio Composition Samples](https://github.com/user-attachments/assets/bdba852a-1a98-42cf-b91f-114ca9b9232a)](/Audio-Samples)

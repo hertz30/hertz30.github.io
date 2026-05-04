@@ -5,8 +5,8 @@
 
 @import "minimal-mistakes";
 
-* {
-  font-family: "Merriweather", Georgia, Times, serif !important;
+*:not(i):not(.fas):not(.fab):not(.far) {
+  font-family: "Merriweather", Georgia, serif !important;
 }
 
 .masthead, 
