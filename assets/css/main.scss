@@ -1,6 +1,9 @@
 ---
 ---
 
+$serif: "Merriweather", Georgia, Times, serif !default;
+$global-font-family: $serif !default;
+
 @import "minimal-mistakes/skins/air";
 
 @import "minimal-mistakes";
