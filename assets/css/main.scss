@@ -1,12 +1,17 @@
 ---
 ---
 
-$serif: "Merriweather", Georgia, Times, serif !default;
-$global-font-family: $serif !default;
-
 @import "minimal-mistakes/skins/air";
 
 @import "minimal-mistakes";
+
+body {
+  font-family: "Merriweather", serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: "Merriweather", serif !important;
+}
 
 .masthead, 
 .masthead__inner-navigation, 
