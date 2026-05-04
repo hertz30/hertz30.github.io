@@ -164,8 +164,8 @@ const voiceTrack = document.getElementById('Loop_Voice');
 const allTracks = [...preludeTracks, ...loopTracks, voiceTrack];
 
 // Logic to trigger the loop once the prelude finishes
-preludeTracks[0].onended = () => playLoop();
-loopTracks[0].onended = () => playLoop();
+preludeTracks[2].onended = () => playLoop();
+loopTracks[2].onended = () => playLoop();
 
 async function safePlay(t) {
 if (!t) return;
