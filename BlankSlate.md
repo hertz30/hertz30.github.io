@@ -6,7 +6,7 @@ excerpt: "Children's Adventure RPG about Freedom"
 ---
 
 [![Play the demo here: Clickable link to Itch.io](assets\images\BlankSlate.png)](https://csgutulsa.itch.io/blank-slate)
-Click above to play the game on Itch.io.
+Click above to download the game from Itch.io.
 
 Blank Slate is an adventure RPG developed by the 2023-2024 graduating class at the University of Tulsa. In this journey, players awaken in a mysterious valley, uncovering their ability to absorb traits from the world's inhabitants to halt the ominous decay endangering the world. 
 

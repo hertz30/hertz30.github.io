@@ -6,7 +6,7 @@ excerpt: "PvE Multiplayer Sci-Fi Roguelike"
 ---
 
 [![Play the demo here: Clickable link to Itch.io](assets\images\SoulSync.png)](https://rjp5546.itch.io/soulsync)
-Click above to play the game on Itch.io.
+Click above to download the game from Itch.io.
 
 Soulsync is a PvE multiplayer roguelike where you and three friends take the helm to traverse treacherous lands and face uncertain odds. Set in an advanced sci-fi fantasy world, the land is controlled and corrupted by corporate influence.
 
