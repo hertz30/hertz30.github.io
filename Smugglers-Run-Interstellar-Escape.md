@@ -16,7 +16,7 @@ Developed as a final project for University of Tulsa's CSG3813: Alternate Contro
 While the demo has been adapted for keyboard and mouse, the intended experience utilizes a custom Arduino-powered controller featuring floor pedals and a crank wheel.
 
 <video width="100%" controls>
-  <source src="assets\Videos\SmugglersRun-InterstellarEscape.mp4" type="video/mp4">
+  <source src="assets\videos\SmugglersRun-InterstellarEscape.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
