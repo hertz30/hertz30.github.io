@@ -315,7 +315,7 @@ One of the first game themes I ever composed, this theme features a dynamic loop
 * This allows you to demo the state-driven variations and track randomization directly in your browser, illustrating how the score responds to real-time gameplay.
 
 ## Main Theme: Smuggler's Run: Interstellar Escape
-Jump to [Open World Compositions for Blank Slate](/Smugglers-Run-Interstellar-Escape#smugglers-run-interstellar-escape-music).
+Jump to [Music for Interstellar Escape](/Smugglers-Run-Interstellar-Escape#smugglers-run-interstellar-escape-music).
 
 Composed for a fast-paced interstellar endless-runner, this theme emphasizes high-stakes tension through dynamic music. Built using heavy synthesizers and expansive reverb, the score delivers a futuristic sci-fi atmosphere that responds directly to the player's performance.
 
