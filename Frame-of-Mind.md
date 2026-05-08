@@ -35,19 +35,19 @@ Frame of Mind is a wordless adventure game developed for the Unlikely Collaborat
 ## Technical Breakdown: Cutscene Audio Composition
 This showcase demonstrates the intended SFX and music synchronization for narrative sequences.
 <video width="100%" controls>
-  <source src="assets/videos/FrameOfMind1.mp4" type="video/mp4">
+  <source src="assets\videos\FrameOfMind1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video width="100%" controls>
-  <source src="assets/videos/FrameOfMind2.mp4" type="video/mp4">
+  <source src="assets\videos\FrameOfMind2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video width="100%" controls>
-  <source src="assets/videos/FrameOfMind3.mp4" type="video/mp4">
+  <source src="assets\videos\FrameOfMind3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video width="100%" controls>
-  <source src="assets/videos/FrameOfMind4.mp4" type="video/mp4">
+  <source src="assets\videos\FrameOfMind4.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
